@@ -1,0 +1,317 @@
+schema_version: 1
+last_verified: "2026-06-28"
+star_counts_are_snapshots: true
+
+projects:
+  - name: Toonflow
+    repo: https://github.com/HBAI-Ltd/Toonflow-app
+    team: [HBAI-Ltd]
+    category: end-to-end
+    description: 小说或剧本到动画短剧的一站式多智能体工作台
+    tags: [novel-to-video, multi-agent, storyboard, animation, desktop]
+    license: Apache-2.0
+    stars: 10609
+    deployment: [desktop, local, server]
+    commercial_api_required: true
+    source_available: true
+    status: active
+
+  - name: Huobao Drama
+    repo: https://github.com/chatfire-AI/huobao-drama
+    team: [Chatfire-AI]
+    category: end-to-end
+    description: 一句话到剧本、角色、分镜、配音、视频和整集导出
+    tags: [script-to-video, multi-agent, storyboard, tts, editing]
+    license: CC-BY-NC-SA-4.0
+    stars: 13001
+    deployment: [local, web]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    notes: 非商用许可
+
+  - name: Jellyfish
+    repo: https://github.com/Forget-C/Jellyfish
+    team: [Forget-C]
+    category: end-to-end
+    description: 面向 AI 短剧的剧本拆解、一致性资产和生成任务工作区
+    tags: [script-analysis, storyboard, character-consistency, asset-management]
+    license: Apache-2.0
+    stars: 4640
+    deployment: [docker, self-hosted]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+
+  - name: ArcReel
+    repo: https://github.com/ArcReel/ArcReel
+    team: [ArcReel]
+    category: end-to-end
+    description: Agent 驱动的小说到角色、场景、剧本、分镜和视频工作台
+    tags: [novel-to-video, multi-agent, storyboard, character-consistency]
+    license: AGPL-3.0
+    stars: 3004
+    deployment: [self-hosted]
+    commercial_api_required: true
+    source_available: true
+    status: active
+
+  - name: VideoClaw
+    repo: https://github.com/HITsz-TMG/VideoClaw
+    team: [HITsz-TMG, Lychee-Agent]
+    category: end-to-end
+    description: 支持多集短剧的创意、剧本、资产、分镜、视频和剪辑 Agent
+    tags: [multi-agent, multi-episode, storyboard, editing, openclaw]
+    license: MIT
+    stars: 1496
+    deployment: [local, webui, openclaw-skill]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+
+  - name: LumenX Studio
+    repo: https://github.com/alibaba/lumenx
+    team: [Alibaba]
+    category: end-to-end
+    description: 小说到短漫剧的资产、风格、分镜和视频生产平台
+    tags: [novel-to-video, motion-comic, storyboard, qwen, wan]
+    license: MIT
+    stars: 764
+    deployment: [self-hosted]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+
+  - name: LocalMiniDrama
+    repo: https://github.com/xuanyustudio/LocalMiniDrama
+    team: [Xuanyu-Studio]
+    category: end-to-end
+    description: 数据保存在本机的短剧和漫剧工作流管理平台
+    tags: [local-first, storyboard, image-to-video, motion-comic]
+    license: MIT
+    stars: 738
+    deployment: [desktop, local]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+
+  - name: Open AI Micro Drama Generator
+    repo: https://github.com/Anil-matcha/Open-AI-Micro-Drama-Generator
+    team: [Anil-matcha]
+    category: end-to-end
+    description: 编剧、分镜、画面和视频多智能体微短剧流水线
+    tags: [multi-agent, micro-drama, storyboard, video-generation]
+    license: MIT
+    stars: 359
+    deployment: [web]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    notes: 主要通过 muapi.ai 调用模型
+
+  - name: OnlyShot
+    repo: https://github.com/A-cat-with-carrots/OnlyShot
+    team: [A-cat-with-carrots]
+    category: agent-skill
+    description: 面向短剧工业流程的 Claude Skill 和方法论
+    tags: [claude-skill, story-bible, pacing, storyboard, seedance]
+    license: MIT
+    stars: 128
+    deployment: [agent-skill]
+    commercial_api_required: true
+    source_available: true
+    status: active
+
+  - name: dramai
+    repo: https://github.com/hyyyyyyz/dramai
+    team: [hyyyyyyz]
+    category: end-to-end
+    description: 浏览器内零后端的文本到分镜、图片、视频和剪映工作台
+    tags: [browser, zero-backend, storyboard, capcut]
+    license: Apache-2.0
+    stars: 19
+    deployment: [browser]
+    commercial_api_required: true
+    source_available: true
+    status: experimental
+
+  - name: BigBanana AI Director
+    repo: https://github.com/shuyu-labs/BigBanana-AI-Director
+    team: [Shuyu-Labs]
+    category: workflow-reference
+    description: Script-to-Asset-to-Keyframe 的工业化短剧工作流
+    tags: [asset-management, keyframe, storyboard, rough-cut]
+    license: CC-BY-NC-SA-4.0
+    stars: 1461
+    deployment: [docker]
+    commercial_api_required: true
+    source_available: partial
+    status: active
+    notes: 非商用；后续更新和源码交付策略需持续观察
+
+  - name: Pixelle-Video
+    repo: https://github.com/AIDC-AI/Pixelle-Video
+    team: [AIDC-AI]
+    category: adjacent-video-system
+    description: 全自动短视频引擎
+    tags: [short-video, agent, automation]
+    license: Apache-2.0
+    stars: 23737
+    deployment: [self-hosted]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+
+  - name: OpenMontage
+    repo: https://github.com/calesthio/OpenMontage
+    team: [Calesthio-AI-Labs]
+    category: adjacent-video-system
+    description: 面向编码智能体的研究、剧本、素材、剪辑和合成生产系统
+    tags: [agentic-video, editing, remotion, ffmpeg, quality-gates]
+    license: AGPL-3.0
+    stars: 25909
+    deployment: [local]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+
+  - name: FireRed-OpenStoryline
+    repo: https://github.com/FireRedTeam/FireRed-OpenStoryline
+    team: [FireRedTeam]
+    category: editing-postproduction
+    description: 自然语言规划和工具编排驱动的 AI 视频剪辑 Agent
+    tags: [editing, style-skill, openclaw, codex, human-in-the-loop]
+    license: Apache-2.0
+    stars: 3016
+    deployment: [local, agent-skill]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+    official_demo: https://fireredteam.github.io/demos/firered_openstoryline/
+
+  - name: VibeFrame
+    repo: https://github.com/vericontext/vibeframe
+    team: [VeriContext]
+    category: editing-postproduction
+    description: CLI-first、MCP-ready 的 AI 原生视频生成和编辑器
+    tags: [cli, mcp, storyboard, editing, rendering]
+    license: MIT
+    stars: 140
+    deployment: [local, cli]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+
+  - name: libtv-skills
+    repo: https://github.com/libtv-labs/libtv-skills
+    team: [LibTV-Labs]
+    category: agent-skill
+    description: LibLib.tv 图片和视频 OpenAPI 的 OpenClaw Skill 封装
+    tags: [openclaw, skill, image-generation, video-generation]
+    license: MIT
+    stars: 781
+    deployment: [openclaw-skill]
+    commercial_api_required: true
+    source_available: true
+    status: active
+
+  - name: ViMax
+    repo: https://github.com/HKUDS/ViMax
+    team: [HKUDS]
+    category: research-prototype
+    description: 导演、编剧、制片和视频生成器一体化的 Agentic Video 系统
+    tags: [multi-agent, director, screenwriter, long-video]
+    license: MIT
+    stars: 10724
+    deployment: [research]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+
+  - name: MovieAgent
+    repo: https://github.com/showlab/MovieAgent
+    team: [Show-Lab]
+    category: research-prototype
+    description: 通过多 Agent 分层 CoT 规划自动生成多场景电影
+    tags: [multi-agent, movie, cinematography, character-consistency]
+    license: unspecified
+    stars: 345
+    deployment: [research]
+    commercial_api_required: optional
+    source_available: true
+    status: research
+    paper: https://arxiv.org/abs/2503.07314
+    homepage: https://weijiawu.github.io/MovieAgent/
+
+  - name: MM-StoryAgent
+    repo: https://github.com/X-PLUG/MM_StoryAgent
+    team: [Alibaba-X-PLUG, Shanghai-Jiao-Tong-University, East-China-Normal-University]
+    category: research-prototype
+    description: 文本、角色一致图像、旁白、音乐和音效多智能体故事视频
+    tags: [multi-agent, story-video, image, speech, music, sound-effects]
+    license: Apache-2.0
+    stars: 307
+    deployment: [research]
+    commercial_api_required: optional
+    source_available: true
+    status: research
+    paper: https://arxiv.org/abs/2503.05242
+
+  - name: Anim-Director and AniMaker
+    repo: https://github.com/HITsz-TMG/Anim-Director
+    team: [HITsz-TMG]
+    category: research-prototype
+    description: LMM 动画导演与 MCTS 驱动的多智能体长篇动画生成
+    tags: [animation, multi-agent, mcts, long-video]
+    license: unspecified
+    stars: 253
+    deployment: [research]
+    commercial_api_required: optional
+    source_available: true
+    status: research
+    papers:
+      - https://arxiv.org/abs/2408.09787
+      - https://arxiv.org/abs/2506.10540
+
+unavailable_or_redirected:
+  - name: AIDrama Studio
+    former_repo: https://github.com/EvoLinkAI/ai-short-drama
+    last_known_license: MIT
+    status: unavailable
+    checked_at: "2026-06-28"
+
+  - name: FilmAgent
+    former_repo: https://github.com/HITsz-TMG/FilmAgent
+    paper: https://arxiv.org/abs/2501.12909
+    status: repository-redirects-to-VideoClaw
+    checked_at: "2026-06-28"
+
+commercial_watchlist:
+  - name: ShortClaw
+    url: https://shortapi.ai/claws/shortclaw/
+    open_source_verified: false
+
+  - name: ShortAPI VideoClaw
+    url: https://shortapi.ai/claws/videoclaw/
+    open_source_verified: false
+
+  - name: ReelClaw
+    team: Wondershare
+    open_source_verified: false
+
+  - name: CreatorClaw
+    url: https://creatorclaw.ai/
+    open_source_verified: false
+
+  - name: AivoClaw
+    url: https://www.aivoclaw.cn/
+    open_source_verified: false
+
+  - name: Ima Claw
+    url: https://www.imaclaw.bot/
+    open_source_verified: false
+
+name_checks:
+  FilmClaw: no-verified-open-source-project
+  MovieClaw: no-verified-open-source-project
+  ShortClaw: general-openclaw-runtime-not-short-drama-specific
