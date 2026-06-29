@@ -20,7 +20,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 - 面向短剧的评测基准、数据集和生产方法论。
 
 > [!NOTE]
-> GitHub Stars 和项目状态核验于 **2026-06-28**。Stars 会持续变化；许可证以项目仓库
+> GitHub Stars 和项目状态核验于 **2026-06-29**。Stars 会持续变化；许可证以项目仓库
 > 中的 `LICENSE` 和作者声明为准。`开源` 不等于 `可免费商用`，依赖商业模型 API 的项目
 > 也不等于完全本地运行。
 
@@ -46,6 +46,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | 🏆🏠 [ArcReel](https://github.com/ArcReel/ArcReel) | ArcReel | Agent 驱动的小说到视频工作台，覆盖角色/场景/道具、标准剧本、分镜图与视频 | AGPL-3.0 | 3.0k | Claude Agent SDK；需关注 AGPL 网络服务义务 |
 | 🏆 [VideoClaw](https://github.com/HITsz-TMG/VideoClaw) | HITsz-TMG / Lychee Agent | 从创意、剧本、角色场景、分镜和参考图到视频生成、剪辑及导出的 AI 视频员工 | MIT | 1.5k | 支持 OpenClaw Skill、多集续写；展示 8 集真人短剧和 5 集动态漫 |
 | 🏆 [LumenX Studio](https://github.com/alibaba/lumenx) | Alibaba | 小说到短漫剧：资产提取、风格定义、资产生成、分镜脚本、分镜图和视频生成 | MIT | 764 | 原生集成 Qwen 与 Wan 系列能力 |
+| ⚠️🏠 [AI Story](https://github.com/xhongc/ai_story) | xhongc | 自托管故事视频生产平台，覆盖文案创作、分镜、图片生成、运镜规划、图生视频和项目管理 | CC BY-NC-SA 4.0（README） | 987 | 与短剧直接相关、源码较完整，但为非商用许可；多集叙事和一致性机制公开说明较弱 |
 | 🏆🏠 [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | Xuanyu Studio | 本地短剧/漫剧工作流，从故事、分镜到视频，项目数据保存在本机 | MIT | 738 | “本地”主要指数据和工作台；云端生成仍需相应 API |
 | 🧪💳 [Open AI Micro Drama Generator](https://github.com/Anil-matcha/Open-AI-Micro-Drama-Generator) | Anil Matcha | 编剧→分镜→画面→视频的多智能体微短剧流水线 | MIT（README） | 359 | 轻量参考实现；主要通过 muapi.ai 调用视频模型 |
 | 🧩 [OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot) | 神仙鱼 / 独立开发者 | 一句话到剧本、分镜、分镜图、视频和剪辑包的 Claude Skill | MIT | 128 | 沉淀短剧钩子、节奏、Story Bible 和 17 类失败模式 |
@@ -93,12 +94,16 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | 📄 [MovieAgent](https://github.com/showlab/MovieAgent) | Show Lab / NUS | 导演、编剧、分镜师和场景经理多 Agent，通过分层 CoT 生成多场景长视频 | 未声明 | 345 | [论文](https://arxiv.org/abs/2503.07314) · [项目页](https://weijiawu.github.io/MovieAgent/) |
 | 📄 [MM-StoryAgent](https://github.com/X-PLUG/MM_StoryAgent) | Alibaba X-PLUG、上海交大、华东师大 | 文字、角色一致图像、旁白、音乐和音效的多智能体故事视频 | Apache-2.0 | 307 | [论文](https://arxiv.org/abs/2503.05242) |
 | 📄 [Anim-Director & AniMaker](https://github.com/HITsz-TMG/Anim-Director) | HITsz-TMG | LMM 动画导演与 MCTS 驱动的多 Agent 长篇动画生成 | 未声明 | 253 | [Anim-Director](https://arxiv.org/abs/2408.09787) · [AniMaker](https://arxiv.org/abs/2506.10540) |
+| 📄 [DramaDirector](https://github.com/iLearn-Lab/DramaDirector) | iLearn-Lab | 几何引导的短剧生成研究原型，结合分镜规划、文图奖励学习、深度/姿态检索和 DramaBoard 基准 | MIT | 1 | [论文](https://arxiv.org/abs/2606.24107) |
 | 📄 [FilmAgent](https://arxiv.org/abs/2501.12909) | HITsz-TMG 等 | 在 3D 虚拟空间中模拟导演、编剧、演员和摄影师完成影视预演 | — | — | 原 GitHub 地址目前重定向至 VideoClaw，故不重复统计仓库 Stars |
 
 ## 研究论文与基准
 
 ### 直接面向短剧
 
+- **[DramaDirector: Geometry-Guided Short Drama Generation](https://arxiv.org/abs/2606.24107)**  
+  Hengji Zhou 等，2026。通过分镜规划、文图对齐奖励以及从真实短剧镜头中检索深度/姿态条件，
+  引导首帧与图生视频生成；同时提出 **DramaBoard**，由 35 部真人短剧、2.8K 集、81K 镜头构成。
 - **[One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems](https://arxiv.org/abs/2605.22144)**  
   Yufei Shi 等，2026。使用多 Agent 辩论改进短剧节奏，以 3D 场景约束首帧空间一致性，
   并通过多阶段 Reviewer 返工剧本、视觉和视频；同时提出 **Short-Drama-Bench**。

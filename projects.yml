@@ -1,5 +1,5 @@
 schema_version: 1
-last_verified: "2026-06-28"
+last_verified: "2026-06-29"
 star_counts_are_snapshots: true
 
 projects:
@@ -81,6 +81,20 @@ projects:
     commercial_api_required: optional
     source_available: true
     status: active
+
+  - name: AI Story
+    repo: https://github.com/xhongc/ai_story
+    team: [xhongc]
+    category: end-to-end
+    description: 自托管的故事视频、AI短剧与AI漫剧生产平台，覆盖文案、分镜、图片、运镜和图生视频
+    tags: [script-to-video, storyboard, image-generation, image-to-video, camera-planning, project-management, docker]
+    license: CC-BY-NC-SA-4.0
+    stars: 987
+    deployment: [docker, self-hosted, web]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    notes: 非商用许可；许可证目前主要见于 README 声明
 
   - name: LocalMiniDrama
     repo: https://github.com/xuanyustudio/LocalMiniDrama
@@ -272,6 +286,21 @@ projects:
     papers:
       - https://arxiv.org/abs/2408.09787
       - https://arxiv.org/abs/2506.10540
+
+  - name: DramaDirector
+    repo: https://github.com/iLearn-Lab/DramaDirector
+    team: [iLearn-Lab]
+    category: research-prototype
+    description: 几何引导的短剧生成研究原型，结合分镜规划、文图奖励学习、深度/姿态检索和 DramaBoard 基准
+    tags: [short-drama, storyboard, depth, pose, image-to-video, benchmark]
+    license: MIT
+    stars: 1
+    deployment: [research, local]
+    commercial_api_required: true
+    source_available: true
+    status: research
+    paper: https://arxiv.org/abs/2606.24107
+    notes: README 说明需配置 DashScope、SiliconFlow 和 RunningHub 等外部服务
 
 unavailable_or_redirected:
   - name: AIDrama Studio

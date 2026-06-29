@@ -17,7 +17,7 @@ This list focuses on projects that address one or more of the following:
 - evaluating narrative quality, cross-shot consistency, and production readiness.
 
 > [!NOTE]
-> GitHub stars and project status were verified on **June 28, 2026**. Star counts change over time.
+> GitHub stars and project status were verified on **June 29, 2026**. Star counts change over time.
 > Always refer to each repository's `LICENSE` file and author statements for the authoritative license.
 > Open source does not automatically mean commercially usable, and a self-hosted application may still
 > depend on commercial model APIs.
@@ -44,6 +44,7 @@ This list focuses on projects that address one or more of the following:
 | 🏆🏠 [ArcReel](https://github.com/ArcReel/ArcReel) | ArcReel | Agent-powered novel-to-video workspace covering characters, scenes, props, normalized scripts, storyboard frames, and video | AGPL-3.0 | 3.0k | Built on Claude Agent SDK; review AGPL obligations for network services |
 | 🏆 [VideoClaw](https://github.com/HITsz-TMG/VideoClaw) | HITsz-TMG / Lychee Agent | AI video coworker covering concepts, scripts, assets, storyboards, reference images, video generation, editing, and export | MIT | 1.5k | OpenClaw Skill and multi-episode continuation; demos include an eight-episode live-action drama and a five-episode motion comic |
 | 🏆 [LumenX Studio](https://github.com/alibaba/lumenx) | Alibaba | Novel-to-motion-comic pipeline for asset extraction, style definition, asset generation, storyboard scripts, frames, and video | MIT | 764 | Native integration with Qwen and Wan models |
+| ⚠️🏠 [AI Story](https://github.com/xhongc/ai_story) | xhongc | Self-hosted story-video production platform covering script creation, storyboards, image generation, camera planning, image-to-video, and project management | CC BY-NC-SA 4.0 (README) | 987 | Directly relevant and source-complete, but non-commercial; explicit multi-episode continuity mechanisms are less documented |
 | 🏆🏠 [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | Xuanyu Studio | Local-first short-drama and comic-drama workflow from story to storyboard and video | MIT | 738 | “Local” describes the workspace and project data; cloud generation may still require APIs |
 | 🧪💳 [Open AI Micro Drama Generator](https://github.com/Anil-matcha/Open-AI-Micro-Drama-Generator) | Anil Matcha | Multi-agent pipeline: screenwriter → storyboard → frames → video | MIT (README) | 359 | Lightweight reference implementation; primarily calls video models through muapi.ai |
 | 🧩 [OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot) | Shenxianyu / independent developer | Claude Skill that turns one idea into a script, storyboard, storyboard images, video, and editing package | MIT | 128 | Includes short-drama hooks, pacing, story bibles, and 17 documented failure modes |
@@ -92,12 +93,17 @@ This list focuses on projects that address one or more of the following:
 | 📄 [MovieAgent](https://github.com/showlab/MovieAgent) | Show Lab / NUS | Hierarchical multi-agent CoT planning for scenes, cinematography, and character interactions | Unspecified | 345 | [Paper](https://arxiv.org/abs/2503.07314) · [Project](https://weijiawu.github.io/MovieAgent/) |
 | 📄 [MM-StoryAgent](https://github.com/X-PLUG/MM_StoryAgent) | Alibaba X-PLUG, SJTU, ECNU | Multi-agent story videos with text, character-consistent images, narration, music, and effects | Apache-2.0 | 307 | [Paper](https://arxiv.org/abs/2503.05242) |
 | 📄 [Anim-Director & AniMaker](https://github.com/HITsz-TMG/Anim-Director) | HITsz-TMG | LMM animation direction and MCTS-driven long-form multi-agent animation | Unspecified | 253 | [Anim-Director](https://arxiv.org/abs/2408.09787) · [AniMaker](https://arxiv.org/abs/2506.10540) |
+| 📄 [DramaDirector](https://github.com/iLearn-Lab/DramaDirector) | iLearn-Lab | Geometry-guided short-drama generation with storyboard planning, text-visual reward learning, depth/pose retrieval, and the DramaBoard benchmark | MIT | 1 | [Paper](https://arxiv.org/abs/2606.24107) |
 | 📄 [FilmAgent](https://arxiv.org/abs/2501.12909) | HITsz-TMG et al. | Simulated directors, screenwriters, actors, and cinematographers for production in virtual 3D spaces | — | — | The original GitHub URL now redirects to VideoClaw, so repository stars are not counted separately |
 
 ## Research Papers and Benchmarks
 
 ### Short-Drama-Specific Research
 
+- **[DramaDirector: Geometry-Guided Short Drama Generation](https://arxiv.org/abs/2606.24107)**  
+  Hengji Zhou et al., 2026. Uses storyboard planning, text-visual alignment rewards, and depth/pose
+  retrieval from real short-drama shots to guide first-frame and image-to-video generation; also
+  introduces **DramaBoard**, a benchmark built from 35 live-action dramas, 2.8K episodes, and 81K shots.
 - **[One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems](https://arxiv.org/abs/2605.22144)**  
   Yufei Shi et al., 2026. Uses multi-agent debate to improve short-drama pacing, 3D-grounded
   first-frame generation for spatial consistency, and multi-stage reviewer loops for script,
@@ -225,4 +231,3 @@ notes:
 ```
 
 Machine-readable project metadata is available in [`projects.yml`](projects.yml).
-
