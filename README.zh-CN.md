@@ -57,7 +57,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 
 | 项目 | 出品团队 | 简介 | 许可证 | Stars | 与短剧的关系 |
 |---|---|---|---:|---:|---|
-| ⚠️ [BigBanana AI Director](https://github.com/shuyu-labs/BigBanana-AI-Director) | Shuyu Labs | Script-to-Asset-to-Keyframe 工业化流程，覆盖季/集管理、资产库、九宫格、首尾帧和粗剪 | CC BY-NC-SA 4.0 | 1.5k | 高度相关，但非商用；后续更新偏向官方 Docker 镜像，源码开放度需持续观察 |
+| ⚠️ [BigBanana AI Director](https://github.com/shuyu-labs/BigBanana-AI-Director) | Shuyu Labs | Script-to-Asset-to-Keyframe 工业化流程，覆盖季/集管理、资产库、九宫格、首尾帧和粗剪 | CC BY-NC-SA 4.0 | 1.5k | 高度相关，但非商用；公开仓库现为历史参考版本，后续更新通过官方 Docker 镜像发布 |
 | 🏠 [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | AIDC-AI | AI 全自动短视频引擎，执行创意规划、素材生成与视频合成 | Apache-2.0 | 23.7k | 更偏通用短视频，但其自动化架构和 Skill 设计值得复用 |
 | 🏠 [OpenMontage](https://github.com/calesthio/OpenMontage) | Calesthio AI Labs | 面向编码智能体的完整视频生产系统，含研究、剧本、素材、剪辑、合成和质量门禁 | AGPL-3.0 | 25.9k | 非短剧专用；适合借鉴 provider 选择、成本治理、审核和可复现流水线 |
 | 🏠 [VibeFrame](https://github.com/vericontext/vibeframe) | VeriContext | CLI-first、MCP-ready 的 AI 原生视频编辑器，使用 Storyboard/Design 文件驱动生成和修订 | MIT | 140 | 可作为短剧分镜、素材构建、时间线和成片检查的基础设施 |

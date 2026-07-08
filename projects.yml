@@ -156,12 +156,12 @@ projects:
     description: Script-to-Asset-to-Keyframe 的工业化短剧工作流
     tags: [asset-management, keyframe, storyboard, rough-cut]
     license: CC-BY-NC-SA-4.0
-    stars: 1461
+    stars: 1500
     deployment: [docker]
     commercial_api_required: true
     source_available: partial
     status: active
-    notes: 非商用；后续更新和源码交付策略需持续观察
+    notes: 非商用；公开仓库保留为历史参考版本，后续版本通过官方 Docker 镜像发布，商业版仍可交付完整源码
 
   - name: Pixelle-Video
     repo: https://github.com/AIDC-AI/Pixelle-Video
