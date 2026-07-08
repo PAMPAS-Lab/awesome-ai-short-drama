@@ -127,10 +127,10 @@ projects:
     repo: https://github.com/A-cat-with-carrots/OnlyShot
     team: [A-cat-with-carrots]
     category: agent-skill
-    description: 面向短剧工业流程的 Claude Skill 和方法论
+    description: 面向工业化 AI 短剧流程的 Claude Skill，覆盖剧本、分镜图、视频和剪辑交付
     tags: [claude-skill, story-bible, pacing, storyboard, seedance]
     license: MIT
-    stars: 128
+    stars: 158
     deployment: [agent-skill]
     commercial_api_required: true
     source_available: true

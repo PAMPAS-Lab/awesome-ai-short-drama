@@ -49,7 +49,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | ⚠️🏠 [AI Story](https://github.com/xhongc/ai_story) | xhongc | 自托管故事视频生产平台，覆盖文案创作、分镜、图片生成、运镜规划、图生视频和项目管理 | CC BY-NC-SA 4.0（README） | 987 | 与短剧直接相关、源码较完整，但为非商用许可；多集叙事和一致性机制公开说明较弱 |
 | 🏆🏠 [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | Xuanyu Studio | 本地短剧/漫剧工作流，从故事、分镜到视频，项目数据保存在本机 | MIT | 738 | “本地”主要指数据和工作台；云端生成仍需相应 API |
 | 🧪💳 [Open AI Micro Drama Generator](https://github.com/Anil-matcha/Open-AI-Micro-Drama-Generator) | Anil Matcha | 编剧→分镜→画面→视频的多智能体微短剧流水线 | MIT（README） | 359 | 轻量参考实现；主要通过 muapi.ai 调用视频模型 |
-| 🧩 [OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot) | 神仙鱼 / 独立开发者 | 一句话到剧本、分镜、分镜图、视频和剪辑包的 Claude Skill | MIT | 128 | 沉淀短剧钩子、节奏、Story Bible 和 17 类失败模式 |
+| 🧩 [OnlyShot](https://github.com/A-cat-with-carrots/OnlyShot) | 神仙鱼 / 独立开发者 | 面向工业化 AI 短剧流程的 Claude Skill，从一句想法到剧本、分镜、分镜图、视频和剪辑包 | MIT | 158 | 沉淀短剧钩子、节奏、Story Bible，并集成 Dreamina/Seedance 与 17 类失败模式 |
 | 🧪🏠 [dramai](https://github.com/hyyyyyyz/dramai) | 独立开发者 | 浏览器内的零后端短剧工作台：文本→分镜→图片→视频→剪映 | Apache-2.0 | 19 | 早期项目，适合作为纯前端工作流参考 |
 | 🧪💳 [AIDrama Studio](https://github.com/EvoLinkAI/ai-short-drama) | EvoLinkAI | 小说/故事到剧本分析、分镜、图片、视频、配音和成片 | 曾声明 MIT | — | **2026-06-28 仓库无法访问**；此前版本依赖 EvoLink API，暂不列为可用项目 |
 
