@@ -123,6 +123,20 @@ projects:
     status: active
     notes: 主要通过 muapi.ai 调用模型
 
+  - name: Wind Comic
+    repo: https://github.com/ChrisChen667788/wind-comic
+    team: [ChrisChen667788]
+    category: end-to-end
+    description: 一句话或小说到短剧成片的多智能体工作台，覆盖角色复用、分镜、配音、时间线和导出
+    tags: [script-to-video, novel-to-video, multi-agent, storyboard, character-consistency, voiceover, self-hosted]
+    license: MIT
+    stars: 320
+    deployment: [docker, self-hosted, web]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    notes: Stars checked on 2026-07-12 Beijing time; BYO-model/provider-agnostic design, but core generation still depends on third-party video/image models
+
   - name: OnlyShot
     repo: https://github.com/A-cat-with-carrots/OnlyShot
     team: [A-cat-with-carrots]
