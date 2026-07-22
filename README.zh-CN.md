@@ -134,6 +134,15 @@ workflows, models, and resources for AI short-drama and micro-series production.
 - **[ViStoryBench: Comprehensive Benchmark Suite for Story Visualization](https://openaccess.thecvf.com/content/CVPR2026/html/Zhuang_ViStoryBench_Comprehensive_Benchmark_Suite_for_Story_Visualization_CVPR_2026_paper.html)**  
   CVPR 2026 故事可视化评测资源，可用于补充短剧的跨镜头一致性评价。
 
+## 观察区
+
+以下条目与赛道直接相关、值得持续跟踪，但**暂不计入主榜正式收录**。常见原因包括：
+刚刚公开、维护历史过短，或当前价值更偏底层能力组件而非完整短剧生产系统。
+
+| 项目 | 团队 | 关注原因 | 许可证 / Stars | 当前限制 |
+|---|---|---|---|---|
+| [ShotPlan](https://github.com/Pensioner-11/ShotPlan) | Su Guo 等 / `Pensioner-11` | 面向多镜头电影式视频生成，支持显式切点控制，并增强跨镜头一致性；源码、论文和模型权重于 `2026-07-20` 同步公开 | Apache-2.0 / 9 | 目前是研究原型，不是完整短剧生产链；截至北京时间 `2026-07-21` 仅 2 次提交且无 release；依赖 Wan 2.1/2.2 权重，数据集条款为 research-only |
+
 ### 官方教程、项目页与文章
 
 - [Toonflow 12 分钟快速上手](https://www.bilibili.com/video/BV1oXD7BqEqJ)；

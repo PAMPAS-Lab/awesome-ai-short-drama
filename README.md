@@ -136,6 +136,16 @@ This list focuses on projects that address one or more of the following:
 - **[ViStoryBench: Comprehensive Benchmark Suite for Story Visualization](https://openaccess.thecvf.com/content/CVPR2026/html/Zhuang_ViStoryBench_Comprehensive_Benchmark_Suite_for_Story_Visualization_CVPR_2026_paper.html)**  
   CVPR 2026 benchmark relevant to cross-shot consistency evaluation.
 
+## Observation Zone
+
+The following items are promising and directly relevant, but are **not yet part of the main list**.
+Typical reasons include early public release, low maintenance history, or value that is still more
+component-level than end-to-end short-drama production.
+
+| Project | Team | Why watch | License / Stars | Current caveats |
+|---|---|---|---|---|
+| [ShotPlan](https://github.com/Pensioner-11/ShotPlan) | Su Guo et al. / `Pensioner-11` | Multi-shot cinematic video generation with explicit cut control and stronger inter-shot consistency; source, paper, and weights were released on July 20, 2026 | Apache-2.0 / 9 stars | Research prototype rather than a full short-drama pipeline; no releases, only 2 commits as checked on July 21, 2026 Beijing time; depends on Wan 2.1/2.2 weights, and the dataset has research-only terms |
+
 ### Official Tutorials, Project Pages, and Articles
 
 - [Toonflow: 12-minute quick start](https://www.bilibili.com/video/BV1oXD7BqEqJ);

@@ -316,6 +316,27 @@ projects:
     paper: https://arxiv.org/abs/2606.24107
     notes: README 说明需配置 DashScope、SiliconFlow 和 RunningHub 等外部服务
 
+observation_watchlist:
+  - name: ShotPlan
+    repo: https://github.com/Pensioner-11/ShotPlan
+    team: [Su-Guo, Pensioner-11]
+    category: observation
+    description: 基于可学习 planning token 的多镜头电影式视频生成研究原型，支持显式切点控制并增强跨镜头一致性
+    tags: [multi-shot-video, cinematic-video, shot-planning, character-consistency, scene-consistency, wan]
+    license: Apache-2.0
+    stars: 9
+    deployment: [research, local]
+    commercial_api_required: false
+    source_available: true
+    status: watch
+    paper: https://arxiv.org/abs/2607.17675
+    homepage: https://pensioner-11.github.io/ShotPlan/
+    model:
+      - https://huggingface.co/Pensioner/ShotPlan-Wan2.2-T2V-A14B-HighNoise
+      - https://huggingface.co/Pensioner/ShotPlan-Wan2.1-T2V-14B
+    checked_at: "2026-07-21"
+    notes: 论文于 2026-07-20 提交 arXiv；源码、模型与数据已公开，但截至北京时间 2026-07-21 仅 2 次提交且无 release，更适合作为观察区候选而非正式主榜项目；依赖 Wan 2.1/2.2 权重，数据集条款为 research-only
+
 unavailable_or_redirected:
   - name: AIDrama Studio
     former_repo: https://github.com/EvoLinkAI/ai-short-drama
