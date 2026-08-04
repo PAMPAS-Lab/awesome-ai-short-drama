@@ -30,6 +30,21 @@ projects:
     status: active
     notes: 非商用许可
 
+  - name: waoowaoo AI Studio
+    repo: https://github.com/waooAI/waoowaoo
+    team: [waooAI]
+    category: end-to-end
+    description: 从小说文本到分镜、角色、场景、配音和完整短剧/漫画视频的生产工作台
+    tags: [novel-to-video, short-drama, motion-comic, storyboard, character-consistency, voiceover, self-hosted]
+    license: CC-BY-NC-SA-4.0
+    stars: 13446
+    deployment: [docker, self-hosted, web, local]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    official_demo: https://www.waoowaoo.com/
+    notes: Stars checked on 2026-08-04 Beijing time; source-complete Next.js studio with Docker/local deployment; non-commercial license; README describes the project as early beta with rapid iteration and recommends provider APIs
+
   - name: Jellyfish
     repo: https://github.com/Forget-C/Jellyfish
     team: [Forget-C]
@@ -130,12 +145,41 @@ projects:
     description: 一句话或小说到短剧成片的多智能体工作台，覆盖角色复用、分镜、配音、时间线和导出
     tags: [script-to-video, novel-to-video, multi-agent, storyboard, character-consistency, voiceover, self-hosted]
     license: MIT
-    stars: 320
+    stars: 434
     deployment: [docker, self-hosted, web]
     commercial_api_required: true
     source_available: true
     status: active
-    notes: Stars checked on 2026-07-12 Beijing time; BYO-model/provider-agnostic design, but core generation still depends on third-party video/image models
+    notes: Stars checked on 2026-08-04 Beijing time; BYO-model/provider-agnostic design, but core generation still depends on third-party video/image models
+
+  - name: DramaClaw
+    repo: https://github.com/dramaclaw/dramaclaw
+    team: [Neo-Flying-AI-Laboratory]
+    category: end-to-end
+    description: 工业化短剧/漫剧生产系统，覆盖小说解析、资产一致性、分镜、配音、场景锁定、画布探索和成片导出
+    tags: [novel-to-video, multi-episode, character-consistency, storyboard, voiceover, editing, self-hosted, source-available]
+    license: Elastic-2.0
+    stars: 2998
+    deployment: [docker, self-hosted, local]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    official_demo: https://dramaclaw.ai
+    notes: Stars checked on 2026-08-04 Beijing time; release v1.2.1 was published on 2026-08-03; source-available under Elastic License 2.0, which restricts hosted-service resale; default setup uses the official OpenAI-compatible gateway, but BYO gateway is supported
+
+  - name: ai-fusion-video
+    repo: https://github.com/Stonewuu/ai-fusion-video
+    team: [Stonewu]
+    category: end-to-end
+    description: 基于 Agent 的全流程短剧、漫剧与视频创作平台，覆盖剧本、分镜、图像、视频和素材管理
+    tags: [script-to-video, storyboard, motion-comic, multi-agent, java, self-hosted]
+    license: MIT
+    stars: 1158
+    deployment: [docker, self-hosted, web]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    notes: Stars checked on 2026-08-04 Beijing time; release v1.0.0 was published on 2026-08-03; core generation still depends on third-party model providers
 
   - name: OnlyShot
     repo: https://github.com/A-cat-with-carrots/OnlyShot
@@ -149,6 +193,35 @@ projects:
     commercial_api_required: true
     source_available: true
     status: active
+
+  - name: ZJT
+    repo: https://github.com/jeffstric/ZJT
+    team: [jeffstric, ZhiJuTong]
+    category: end-to-end
+    description: 多智能体 AI 短剧制作平台，覆盖剧本、分镜、视频合成、TTS、协作和算力治理
+    tags: [script-to-video, multi-agent, storyboard, collaboration, tts, docker]
+    license: Apache-2.0-with-additional-terms
+    stars: 181
+    deployment: [docker, self-hosted, web]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    official_demo: https://ailive.perseids.cn/
+    notes: Stars checked on 2026-07-30 Beijing time; updated Jul 30, 2026 on the short-drama topic page; custom license allows private deployment and commercial use but restricts multi-space hosted services and branding removal
+
+  - name: drama-skills
+    repo: https://github.com/worldwonderer/drama-skills
+    team: [worldwonderer]
+    category: agent-skill
+    description: 面向 Codex 和 Claude Code 的 AI 短剧技能套件，覆盖写作、资产、分镜、视频提示词和独立审查
+    tags: [agent-skill, codex, claude-code, storyboard, prompt-engineering, review]
+    license: MIT
+    stars: 375
+    deployment: [agent-skill]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+    notes: Stars checked on 2026-07-30 Beijing time; updated Jul 30, 2026 on the short-drama topic page; method and skill suite rather than a standalone web app
 
   - name: dramai
     repo: https://github.com/hyyyyyyz/dramai
@@ -202,6 +275,21 @@ projects:
     commercial_api_required: optional
     source_available: true
     status: active
+
+  - name: Inline Studio
+    repo: https://github.com/inlineresearch/Inline-Studio
+    team: [Inline-Research]
+    category: adjacent-video-system
+    description: 面向 AI 影视创作的桌面 node-canvas 工具，支持版本化 take、时间线合成和 fal/ComfyUI 混合工作流
+    tags: [desktop, node-canvas, storyboard, editing, comfyui, fal]
+    license: MIT
+    stars: 160
+    deployment: [desktop, local]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+    official_demo: https://inlinestudio.art
+    notes: Stars checked on 2026-07-15 Beijing time; updated with release 1.0.39 on 2026-07-14; not short-drama-specific but useful as adjacent narrative video infrastructure
 
   - name: FireRed-OpenStoryline
     repo: https://github.com/FireRedTeam/FireRed-OpenStoryline
@@ -324,7 +412,7 @@ observation_watchlist:
     description: 基于可学习 planning token 的多镜头电影式视频生成研究原型，支持显式切点控制并增强跨镜头一致性
     tags: [multi-shot-video, cinematic-video, shot-planning, character-consistency, scene-consistency, wan]
     license: Apache-2.0
-    stars: 9
+    stars: 72
     deployment: [research, local]
     commercial_api_required: false
     source_available: true
@@ -334,8 +422,53 @@ observation_watchlist:
     model:
       - https://huggingface.co/Pensioner/ShotPlan-Wan2.2-T2V-A14B-HighNoise
       - https://huggingface.co/Pensioner/ShotPlan-Wan2.1-T2V-14B
-    checked_at: "2026-07-21"
-    notes: 论文于 2026-07-20 提交 arXiv；源码、模型与数据已公开，但截至北京时间 2026-07-21 仅 2 次提交且无 release，更适合作为观察区候选而非正式主榜项目；依赖 Wan 2.1/2.2 权重，数据集条款为 research-only
+    checked_at: "2026-08-04"
+    notes: 论文于 2026-07-20 提交 arXiv；源码、模型与数据已公开，但截至北京时间 2026-08-04 复核仍无 release，且 2026-07-21 之后没有新的代码推送，更适合作为观察区候选而非正式主榜项目；依赖 Wan 2.1/2.2 权重，数据集条款为 research-only
+
+  - name: AI Showrunner
+    repo: https://github.com/Yanjin-ai/showrunner
+    team: [Yanjin-ai]
+    category: observation
+    description: 面向 9:16 微短剧的一体化 Agent，覆盖剧本、Story Bible、分镜、逐镜生成、QA 返工、剪辑和多语字幕
+    tags: [vertical-drama, story-bible, storyboard, qa-regeneration, subtitles, qwen-cloud, editing]
+    license: Unspecified
+    stars: 0
+    deployment: [local, docker, web]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-07-23"
+    notes: 仓库于 2026-07-20 公开，源码完整且与短剧链路直接相关，但截至北京时间 2026-07-23 仍无 LICENSE、无 release、无社区验证，更适合作为观察区候选；默认依赖 Qwen Cloud 与第三方视频服务
+
+  - name: my-adrama
+    repo: https://github.com/hellomrli/my-adrama
+    team: [hellomrli]
+    category: observation
+    description: GUI + CLI 一体的 AI 短剧工作流，覆盖剧本、资产、分镜、视频、阶段审核和本地打包
+    tags: [short-drama, gui, cli, script-to-video, storyboard, stage-approval, rust]
+    license: MIT
+    stars: 0
+    deployment: [desktop, local, cli]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-08-04"
+    notes: 仓库于 2026-07-23 公开，2026-07-26 发布 v0.5.0；README 与目录结构显示源码完整且直接面向短剧生产链，但截至北京时间 2026-08-04 仍无社区验证，且核心能力强依赖 OpenAI、Gemini、Grok 等商业 API，更适合作为观察区候选
+
+  - name: guided-story-video-agent
+    repo: https://github.com/1667001332/guided-story-video-agent
+    team: [1667001332]
+    category: observation
+    description: 从一句方向到创意卡、短剧本、分镜和受控视频渲染的研究型 story-to-video Agent
+    tags: [story-agent, storyboard, short-film, creative-ideation, gradio, research-mvp]
+    license: MIT
+    stars: 1
+    deployment: [local, web, cli]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-08-04"
+    notes: 仓库于 2026-07-21 公开，2026-08-03 发布 v1.0.1；带 tests、离线 fallback 和受控付费渲染门禁，方向清晰，但截至北京时间 2026-08-04 仍更接近短片创意与分镜研究 MVP，而非完整多集短剧生产系统，因此先放观察区
 
 unavailable_or_redirected:
   - name: AIDrama Studio
