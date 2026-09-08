@@ -43,12 +43,14 @@ workflows, models, and resources for AI short-drama and micro-series production.
 |---|---|---|---:|---:|---|
 | 🏆🏠 [Toonflow](https://github.com/HBAI-Ltd/Toonflow-app) | HBAI Ltd | 小说/剧本到动画短剧；提供编剧、分镜、角色、视频生成、三层 Agent 和无限画布工作台 | Apache-2.0 | 10.6k | 桌面端/服务器部署；实际生成需要配置模型服务 |
 | 🏆⚠️ [Huobao Drama](https://github.com/chatfire-AI/huobao-drama) | Chatfire AI | 一句话到剧本、角色、分镜、配音、视频与整集导出的自动化平台 | CC BY-NC-SA 4.0 | 13.0k | **非商用许可**；内置 Mastra Agents，支持多家模型 API |
+| 🏆🏠 [Huobao Drama AI](https://github.com/dav-niu474/huobao-drama-ai) | dav-niu474 | 基于 Next.js 16 的全栈 AI 短剧创作平台，覆盖剧本上传/改写、角色场景提取、分镜、图片/视频/TTS 和多供应商模型配置 | MIT | 77 | Stars 于 `2026-08-21` 北京时间复核；`2026-08-21` 有连续功能与安全更新；受 Huobao Drama 启发，但为独立 MIT 实现，更适合商用评估 |
 | 🏆⚠️🏠 [waoowaoo AI Studio](https://github.com/waooAI/waoowaoo) | waooAI | 从小说文本到分镜化短剧/漫画视频，覆盖剧本解析、角色/场景生成、配音和完整视频制作 | CC BY-NC-SA 4.0 | 13.4k | 源码完整的 Next.js 工作室，支持 Docker/本地部署；**非商用许可**；README 明确项目仍处于快速迭代的早期测试阶段 |
 | 🏆🏠 [Jellyfish](https://github.com/Forget-C/Jellyfish) | Forget-C / 社区 | 面向 AI 短剧的生产工作区，强调剧本拆解、资产复用、一致性管理、生成任务和导出 | Apache-2.0 | 4.6k | Docker Compose；MySQL、Redis、对象存储等完整后端 |
 | 🏆🏠 [ArcReel](https://github.com/ArcReel/ArcReel) | ArcReel | Agent 驱动的小说到视频工作台，覆盖角色/场景/道具、标准剧本、分镜图与视频 | AGPL-3.0 | 3.0k | Claude Agent SDK；需关注 AGPL 网络服务义务 |
 | 🏆 [VideoClaw](https://github.com/HITsz-TMG/VideoClaw) | HITsz-TMG / Lychee Agent | 从创意、剧本、角色场景、分镜和参考图到视频生成、剪辑及导出的 AI 视频员工 | MIT | 1.5k | 支持 OpenClaw Skill、多集续写；展示 8 集真人短剧和 5 集动态漫 |
 | 🏆⚠️🏠 [DramaClaw](https://github.com/dramaclaw/dramaclaw) | Neo Flying AI Laboratory | 面向工业化短剧/漫剧生产的全链路系统，覆盖小说解析、资产一致性、分镜、配音、场景锁定、画布探索和成片导出 | Elastic-2.0 | 3.0k | 源码可见且可自托管，但禁止作为托管服务转售；`2026-08-03` 发布了 `v1.2.1` |
 | 🏆🏠 [ai-fusion-video](https://github.com/Stonewuu/ai-fusion-video) | Stonewu | 基于 Agent 的全流程短剧/漫剧/视频创作平台，覆盖分集分场景剧本管理、AI 分镜、AI 绘图、AI 视频、素材管理和 Docker 部署 | MIT | 1.2k | Java 后端 + Next.js 前端；可自托管；`2026-08-03` 发布了 `v1.0.0`；核心生成仍依赖第三方模型提供方 |
+| 🏆🏠 [AID](https://github.com/gzxx-2025/aid-server) | gzxx-2025 / 光子讯息(杭州)科技有限公司 | 面向 AI 漫剧、AI 短剧、AI 电影与叙事视频的开源生产平台，覆盖故事/分集、角色道具场景、分镜、图片/视频生成、配音，并提供计费、后台和在线升级 | MIT | 23 | 主仓库为 `aid-server`，配套 `aid-web` 与 `aid-admin`；Stars 于 `2026-08-16` 复核；社区验证仍早期，但私有化部署和运营能力很完整 |
 | 🏆 [LumenX Studio](https://github.com/alibaba/lumenx) | Alibaba | 小说到短漫剧：资产提取、风格定义、资产生成、分镜脚本、分镜图和视频生成 | MIT | 764 | 原生集成 Qwen 与 Wan 系列能力 |
 | ⚠️🏠 [AI Story](https://github.com/xhongc/ai_story) | xhongc | 自托管故事视频生产平台，覆盖文案创作、分镜、图片生成、运镜规划、图生视频和项目管理 | CC BY-NC-SA 4.0（README） | 987 | 与短剧直接相关、源码较完整，但为非商用许可；多集叙事和一致性机制公开说明较弱 |
 | 🏆🏠 [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | Xuanyu Studio | 本地短剧/漫剧工作流，从故事、分镜到视频，项目数据保存在本机 | MIT | 738 | “本地”主要指数据和工作台；云端生成仍需相应 API |
@@ -84,6 +86,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | 🧩 [libtv-skills](https://github.com/libtv-labs/libtv-skills) | LibTV Labs | 将 LibLib.tv 图片/视频 OpenAPI 封装为 OpenClaw 兼容 Skill | MIT / 781 | 是能力适配层，不是完整短剧系统 |
 | 🧩 [VideoClaw Skill](https://github.com/HITsz-TMG/VideoClaw) | HITsz-TMG | 在 OpenClaw 中通过对话启动完整视频/短剧生成 | MIT / 1.5k | 可通过 ClawHub 安装；执行前仍需审核配置及 API 权限 |
 | 🧩 [drama-skills](https://github.com/worldwonderer/drama-skills) | worldwonderer | 面向 Codex 和 Claude Code 的短剧技能套件，覆盖项目初始化、写作、资产、分镜、视频提示词与独立审查 | MIT / 375 | 更偏生产方法层与技能编排，不是独立成片应用 |
+| 🧩 [shuohao-skills](https://github.com/eternityspring/shuohao-skills) | eternityspring | 面向 AI 短剧前期生产的 Skill 合集，覆盖小说改编、角色/场景/道具设定、剧本写作与分镜投产包，适配 Codex 与 Claude Code | Apache-2.0 / 1.5k | 前期生产与质量门设计较强，内置 selftest；不是独立的视频生成或剪辑应用 |
 | 🧩 [Drama Generator](https://clawhub.ai/zhenstaff/drama-generator) | ClawHub 社区 | 多角色剧本、OpenAI TTS、Whisper 和 Remotion 合成 | 未核验 | 更接近动态图形/有声剧，非电影级生成 |
 | 🧩 [One Click Video Creation](https://clawhub.ai/zuoyuting214/skills/zyt-one-click-video-creation) | ClawHub 社区 | 文案、分镜、TTS、数字人与 AI 素材混剪 | 未核验 | 依赖外部模型与 FFmpeg |
 | 🧩 [Video Cog](https://clawhub.ai/nitishgargiitd/video-cog) | ClawHub 社区 | 主题到脚本、配音、音乐和剪辑 | 未核验 | 依赖托管服务，需检查数据和计费条款 |
@@ -112,6 +115,9 @@ workflows, models, and resources for AI short-drama and micro-series production.
 - **[DramaDirector: Geometry-Guided Short Drama Generation](https://arxiv.org/abs/2606.24107)**  
   Hengji Zhou 等，2026。通过分镜规划、文图对齐奖励以及从真实短剧镜头中检索深度/姿态条件，
   引导首帧与图生视频生成；同时提出 **DramaBoard**，由 35 部真人短剧、2.8K 集、81K 镜头构成。
+- **[SAGE / PROSE：通过归因引导规则演化的故事板导演能力学习](https://arxiv.org/abs/2608.17468)**  
+  Maolin Ran 等，2026。提出 SAGE（Self-Evolving Storyboard Skills via Attribution-Guided Rule Evolution）用于从专业导演示例中持续进化拍摄规则，并公开首个 paired screenplay–storyboard 数据集 **PROSE**（68 集、3 套短剧项目），仓库为  
+  [https://github.com/creDreams/PROSE](https://github.com/creDreams/PROSE)，使用 CC BY 4.0 协议。
 - **[One Sentence, One Drama: Personalized Short-Form Drama Generation via Multi-Agent Systems](https://arxiv.org/abs/2605.22144)**  
   Yufei Shi 等，2026。使用多 Agent 辩论改进短剧节奏，以 3D 场景约束首帧空间一致性，
   并通过多阶段 Reviewer 返工剧本、视觉和视频；同时提出 **Short-Drama-Bench**。
@@ -149,6 +155,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | 项目 | 团队 | 关注原因 | 许可证 / Stars | 当前限制 |
 |---|---|---|---|---|
 | [ShotPlan](https://github.com/Pensioner-11/ShotPlan) | Su Guo 等 / `Pensioner-11` | 面向多镜头电影式视频生成，支持显式切点控制，并增强跨镜头一致性；源码、论文和模型权重于 `2026-07-20` 同步公开 | Apache-2.0 / 72 | 目前是研究原型，不是完整短剧生产链；截至北京时间 `2026-08-04` 复核仍无 release，且 `2026-07-21` 之后没有新的代码推送；依赖 Wan 2.1/2.2 权重，数据集条款为 research-only |
+| [Seedance Drama Maker](https://github.com/wanglongxiao/seedance-drama-maker) | wanglongxiao | 一句话到短剧的多智能体链路，覆盖角色一致分镜审核与逐镜复核，但核心生成与审核仍绑定 BytePlus、SeeDance、SeeDream、Seed-Speech 和 TOS；GitHub 尚无 release 页 | MIT / 10 | 按北京时区 `2026-08-20` 复核，源码完整但依赖锁定、更新与发版信号不足，先列观察区持续观察 |
 | [AI Showrunner](https://github.com/Yanjin-ai/showrunner) | `Yanjin-ai` | 面向竖屏微短剧的全链路 Agent，覆盖剧本、Story Bible、分镜、逐镜生成、批改返工、剪辑和多语字幕 | 未声明 / 0 | 与微短剧链路直接相关且源码完整，但截至北京时间 `2026-07-23` 仍无明确许可证、无 release，更像 hackathon 原型，并依赖 Qwen Cloud 与第三方视频服务 |
 | [my-adrama](https://github.com/hellomrli/my-adrama) | `hellomrli` | 新近公开的 GUI + CLI 短剧工作流，覆盖剧本、资产、分镜、视频、阶段审核和本地打包；`2026-07-26` 已发布 `v0.5.0` | MIT / 0 | 与短剧链路直接相关且源码完整，但截至北京时间 `2026-08-04` 复核仍属早期公开项目、暂无社区验证，并强依赖 OpenAI/Gemini/Grok 等商业 API |
 | [guided-story-video-agent](https://github.com/1667001332/guided-story-video-agent) | `1667001332` | 从一句方向到创意卡、30-60 秒剧本、分镜和受控视频渲染的研究型 Agent，带 tests 与离线 fallback；`2026-08-03` 已发布 `v1.0.1` | MIT / 1 | 很有价值的 story-to-video 研究 MVP，但截至北京时间 `2026-08-04` 复核仍更接近短片创意和分镜实验，不是完整多集短剧生产系统；真实渲染仍依赖外部付费 provider |

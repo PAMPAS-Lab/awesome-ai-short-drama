@@ -30,6 +30,21 @@ projects:
     status: active
     notes: 非商用许可
 
+  - name: Huobao Drama AI
+    repo: https://github.com/dav-niu474/huobao-drama-ai
+    team: [dav-niu474]
+    category: end-to-end
+    description: 基于 Next.js 16 的全栈 AI 短剧创作平台，覆盖剧本上传/改写、角色场景提取、分镜、图片/视频/TTS 和多供应商配置
+    tags: [short-drama, script-to-video, storyboard, tts, multi-provider, nextjs, self-hosted]
+    license: MIT
+    stars: 77
+    deployment: [web, self-hosted, vercel]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    official_demo: https://huobao-drama-ai.vercel.app
+    notes: Stars checked on 2026-08-21 Beijing time; substantial Aug 21 commits added Toonflow-inspired event/asset/storyboard agents, workshop UI redesign, and security fixes; README states it is inspired by chatfire-AI/huobao-drama
+
   - name: waoowaoo AI Studio
     repo: https://github.com/waooAI/waoowaoo
     team: [waooAI]
@@ -181,6 +196,21 @@ projects:
     status: active
     notes: Stars checked on 2026-08-04 Beijing time; release v1.0.0 was published on 2026-08-03; core generation still depends on third-party model providers
 
+  - name: AID
+    repo: https://github.com/gzxx-2025/aid-server
+    team: [gzxx-2025, Photon-Info-Hangzhou]
+    category: end-to-end
+    description: 面向 AI 漫剧、AI 短剧、AI 电影与叙事视频的全开源生产平台，覆盖故事分集、资产、分镜、图片视频、配音、计费和运营后台
+    tags: [short-drama, motion-comic, ai-film, storyboard, character-consistency, dubbing, self-hosted, billing, ops, multi-model]
+    license: MIT
+    stars: 23
+    deployment: [docker, self-hosted, web, systemd]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    official_demo: https://www.aidstudio.com.cn/
+    notes: Stars checked on 2026-08-16 Beijing time; primary repo is aid-server, with aid-web and aid-admin as companion fronts; early public validation, but the stack is unusually complete in private deployment, operations, billing, and upgrade tooling
+
   - name: OnlyShot
     repo: https://github.com/A-cat-with-carrots/OnlyShot
     team: [A-cat-with-carrots]
@@ -222,6 +252,20 @@ projects:
     source_available: true
     status: active
     notes: Stars checked on 2026-07-30 Beijing time; updated Jul 30, 2026 on the short-drama topic page; method and skill suite rather than a standalone web app
+
+  - name: shuohao-skills
+    repo: https://github.com/eternityspring/shuohao-skills
+    team: [eternityspring]
+    category: agent-skill
+    description: 面向 AI 短剧前期生产的 skill 合集，覆盖小说改编、角色设定、美术设定、剧本写作和分镜投产包
+    tags: [novel-adaptation, story-bible, storyboard, quality-gates, codex, claude-code]
+    license: Apache-2.0
+    stars: 1530
+    deployment: [agent-skill, local]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+    notes: Stars checked on 2026-08-15 Beijing time; repository was created on 2026-08-06 and saw substantial updates on 2026-08-15; strong deterministic pre-production workflow with built-in selftests, but not a standalone video generation or editing app
 
   - name: dramai
     repo: https://github.com/hyyyyyyz/dramai
@@ -344,6 +388,22 @@ projects:
     source_available: true
     status: active
 
+  - name: SAGE / PROSE
+    repo: https://github.com/creDreams/PROSE
+    team: [creDreams]
+    category: research-prototype
+    description: 自进化的短剧分镜规则系统（SAGE）与配套 screenplay–storyboard 数据集（PROSE）
+    tags: [storyboard, short-drama, multi-agent, rule-evolution, dataset, character-consistency]
+    license: CC-BY-4.0
+    stars: 0
+    deployment: [research]
+    commercial_api_required: false
+    source_available: true
+    status: research
+    paper: https://arxiv.org/abs/2608.17468
+    checked_at: "2026-08-20"
+    notes: 提交于 2026-08-18；论文提出 SAGE 用于由归因引导的规则演化，搭配发布的 PROSE 数据集发布 paired screenplay–storyboard 样本，关注短剧镜头规划与角色一致性方向的增量价值
+
   - name: MovieAgent
     repo: https://github.com/showlab/MovieAgent
     team: [Show-Lab]
@@ -424,6 +484,22 @@ observation_watchlist:
       - https://huggingface.co/Pensioner/ShotPlan-Wan2.1-T2V-14B
     checked_at: "2026-08-04"
     notes: 论文于 2026-07-20 提交 arXiv；源码、模型与数据已公开，但截至北京时间 2026-08-04 复核仍无 release，且 2026-07-21 之后没有新的代码推送，更适合作为观察区候选而非正式主榜项目；依赖 Wan 2.1/2.2 权重，数据集条款为 research-only
+
+  - name: Seedance Drama Maker
+    repo: https://github.com/wanglongxiao/seedance-drama-maker
+    team: [wanglongxiao]
+    category: observation
+    description: 一句话到短剧的多智能体引擎，覆盖脚本、参考图库、故事版审核、分镜视频审核和最终成片合并
+    tags: [short-drama, multi-agent, storyboard, character-consistency, multilingual, seedance, byteplus, video-review]
+    license: MIT
+    stars: 10
+    deployment: [local, web]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    official_demo: https://s0sij5su2u6qe1sds1et0.apigateway-ap-southeast-1.apigw-byteplus.com/
+    checked_at: "2026-08-20"
+    notes: 核验于北京时区 `2026-08-20`；源码完整、链路较完整，但仍未发现 release 页与稳定独立版本；核心生成与审核强依赖 BytePlus / SeeDance / SeeDream / Seed-Speech / TOS，且目前更适合作为观察区候选
 
   - name: AI Showrunner
     repo: https://github.com/Yanjin-ai/showrunner
