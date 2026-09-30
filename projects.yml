@@ -335,6 +335,20 @@ projects:
     official_demo: https://inlinestudio.art
     notes: Stars checked on 2026-07-15 Beijing time; updated with release 1.0.39 on 2026-07-14; not short-drama-specific but useful as adjacent narrative video infrastructure
 
+  - name: PowerTokens Video Studio
+    repo: https://github.com/PowerTokens/video-studio
+    team: [PowerTokens]
+    category: adjacent-video-system
+    description: Windows 单文件 EXE 桌面工具，用 Wan 3.0 批量渲染 Excel/CSV 分镜表，每条提示词自动带上统一角色设定，任务中断后可按 Task ID 续跑而无需重新提交
+    tags: [desktop, windows, batch, storyboard-to-video, character-sheet, resume, wan]
+    license: MIT
+    stars: 0
+    deployment: [desktop]
+    commercial_api_required: true
+    source_available: true
+    status: active
+    notes: 基于 PowerTokens API
+
   - name: FireRed-OpenStoryline
     repo: https://github.com/FireRedTeam/FireRed-OpenStoryline
     team: [FireRedTeam]
