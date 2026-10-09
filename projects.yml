@@ -339,8 +339,8 @@ projects:
     repo: https://github.com/PowerTokens/video-studio
     team: [PowerTokens]
     category: adjacent-video-system
-    description: Windows 单文件 EXE 桌面工具，用 Wan 3.0 批量渲染 Excel/CSV 分镜表，每条提示词自动带上统一角色设定，任务中断后可按 Task ID 续跑而无需重新提交
-    tags: [desktop, windows, batch, storyboard-to-video, character-sheet, resume, wan]
+    description: Video Studio 1.12（Windows 桌面 + 网页），用 Wan · Seedance · Kling 等批量渲染 Excel/CSV 分镜表，每条提示词自动带上统一角色设定，任务中断后可按 Task ID 续跑而无需重新提交
+    tags: [desktop, windows, web, batch, storyboard-to-video, character-sheet, resume, wan, seedance, kling]
     license: MIT
     stars: 0
     deployment: [desktop]

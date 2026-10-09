@@ -68,7 +68,7 @@ This list focuses on projects that address one or more of the following:
 | 🏠 [OpenMontage](https://github.com/calesthio/OpenMontage) | Calesthio AI Labs | Full agent-driven production system for research, scripts, assets, editing, composition, and quality gates | AGPL-3.0 | 25.9k | Not drama-specific; strong reference for provider selection, budget governance, review, and reproducibility |
 | 🏠 [Inline Studio](https://github.com/inlineresearch/Inline-Studio) | Inline Research | Desktop AI filmmaking canvas with versioned takes, timeline composition, and hybrid fal/ComfyUI generation | MIT | 160 | Adjacent rather than drama-specific; strong fit for storyboard-driven narrative iteration and shot management |
 | 🏠 [VibeFrame](https://github.com/vericontext/vibeframe) | VeriContext | CLI-first, MCP-ready AI video editor driven by storyboard and design files | MIT | 140 | Useful infrastructure for storyboard builds, asset generation, timelines, and render inspection |
-| 💳 [PowerTokens Video Studio](https://github.com/PowerTokens/video-studio) | PowerTokens | Windows single-EXE app that batch-renders an Excel/CSV shot list with Wan 3.0, keeps a shared cast sheet on every prompt, and resumes interrupted jobs by Task ID without resubmitting | MIT | 0 | Runs on the PowerTokens API |
+| 💳 [PowerTokens Video Studio](https://github.com/PowerTokens/video-studio) | PowerTokens | Video Studio 1.12 (Windows desktop + web) that batch-renders an Excel/CSV shot list with Wan · Seedance · Kling · and more, keeps a shared cast sheet on every prompt, and resumes interrupted jobs by Task ID without resubmitting | MIT | 0 | Runs on the PowerTokens API |
 
 ### Editing and Post-Production
 
