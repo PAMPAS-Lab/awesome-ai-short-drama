@@ -3,6 +3,100 @@ last_verified: "2026-06-29"
 star_counts_are_snapshots: true
 
 projects:
+  - name: Open Film Skills
+    repo: https://github.com/62656456/ai-film-skills
+    team: ["62656456"]
+    category: agent-skill
+    description: 21 个影视 Skill，覆盖编导、资产、分镜、摄影、可选 3D 预演、制作交接与全片审查
+    tags: [agent-skill, filmmaking, storyboard, cinematography, visual-assets, previs, quality-gates]
+    license: Apache-2.0
+    stars: 66
+    deployment: [agent-skill, local]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+    homepage: https://62656456.github.io/ai-film-skills/
+    checked_at: "2026-10-13"
+    notes: Stars checked on 2026-10-13 Beijing time; v1.4.0 released 2026-10-09 synchronizes source and standalone packages; 18 regular plus 3 opt-in experimental packages; external generation tools required; packaging/tests do not establish finished-film aesthetic acceptance
+
+  - name: ReShot
+    repo: https://github.com/maosika-ai/reshot
+    team: [maosika-ai, Maosika]
+    category: workflow-reference
+    description: 将参考视频转为深度、骨架或边缘控制素材，复用站位、动作和运镜并替换角色
+    tags: [shot-control, camera-control, character-consistency, depth, pose, canny, comfyui, seedance, minimax-h3, wan-vace]
+    license: Apache-2.0
+    stars: 51
+    deployment: [local, cli, web-ui, colab, comfyui]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+    homepage: https://www.maosika.com/
+    checked_at: "2026-10-13"
+    notes: Stars checked on 2026-10-13 Beijing time; latest release v0.5.0; outputs control media, not final generated video; local extraction does not require paid generation APIs; downstream model services and weight licenses are separate
+
+  - name: Story Claw
+    repo: https://github.com/ZC89757/story-claw
+    team: [ZC89757]
+    category: end-to-end
+    description: 小说到分集短剧的桌面与 CLI 生产链，覆盖阶段资产、固定声线、分镜、音频、镜头质检、自托管视频及可选 MG 动画模板
+    tags: [novel-to-video, multi-episode, character-consistency, storyboard, tts, comfyui, ltx, desktop, quality-gates, mg-animation]
+    license: MIT
+    stars: 28
+    deployment: [desktop, windows, local, cli, self-hosted]
+    commercial_api_required: true
+    source_available: true
+    status: experimental
+    homepage: https://zc89757.github.io/story-claw/
+    checked_at: "2026-10-13"
+    notes: Stars checked on 2026-10-13 Beijing time; optional MG templates install separately; ComfyUI/LTX renders on user-provided GPU, while LLM/image/TTS APIs are required; failed clips may be accepted after the retry limit; not deployment-tested in this review
+
+  - name: Short-Drama Director Suite / Manju Laoli
+    repo: https://github.com/lixiaoxiao9888-create/manju-laoli-skill
+    team: [lixiaoxiao9888-create]
+    category: agent-skill
+    description: 短剧导演 Skill，覆盖四视图资产、空间站位、对白、段缝连续性、模型提示词适配、机检与离线看板
+    tags: [short-drama, motion-comic, storyboard, character-consistency, seedance, minimax-h3, prompt-lint, openclaw, quality-gates]
+    license: MIT
+    stars: 1158
+    deployment: [agent-skill, local]
+    commercial_api_required: optional
+    source_available: true
+    status: experimental
+    checked_at: "2026-10-13"
+    notes: Stars checked on 2026-10-13 Beijing time; latest release remains v6.9.8 dated 2026-09-20; recent commits mainly update sponsorship documentation; beta integrating modified open-source content; external generation tools required; prompt checks do not guarantee film quality
+
+  - name: Dramake
+    repo: https://github.com/xixihhhh/ai-short-drama-skill
+    team: [xixihhhh]
+    category: agent-skill
+    description: 导演与制片 Skill，覆盖跨集记忆、连续性、声线、预算、任务恢复、依赖段验收与剪辑交付计划
+    tags: [short-drama, series-memory, character-consistency, storyboard, audio, budget, quality-gates, codex, claude-code]
+    license: MIT
+    stars: 50
+    deployment: [agent-skill, local]
+    commercial_api_required: optional
+    source_available: true
+    status: experimental
+    checked_at: "2026-10-13"
+    notes: Stars checked on 2026-10-13 Beijing time; latest push 2026-08-29; templates, validation scripts and tests; separately connected generation tools required; examples are production plans rather than verified finished films
+
+  - name: StarReel MCP
+    repo: https://github.com/starreel/starreel-mcp
+    team: [StarReel]
+    category: agent-skill
+    description: 商业短剧生产服务的开源 MCP 适配器，暴露剧本、资产、分镜、视频、TTS 和成片工具
+    tags: [mcp, integration, short-drama, script-to-video, storyboard, tts, commercial-service]
+    license: MIT
+    stars: 0
+    deployment: [local, mcp-client]
+    commercial_api_required: true
+    source_available: true
+    status: experimental
+    homepage: https://starreel.ai/
+    checked_at: "2026-10-13"
+    notes: Stars checked on 2026-10-13 Beijing time; 2026-10-12 source sync labels v0.1.138; source availability covers only the thin MCP client; generation, consistency gates, auditing and billing run on a prepaid proprietary server
+
   - name: Toonflow
     repo: https://github.com/HBAI-Ltd/Toonflow-app
     team: [HBAI-Ltd]
@@ -174,42 +268,46 @@ projects:
     description: 工业化短剧/漫剧生产系统，覆盖小说解析、资产一致性、分镜、配音、场景锁定、画布探索和成片导出
     tags: [novel-to-video, multi-episode, character-consistency, storyboard, voiceover, editing, self-hosted, source-available]
     license: Elastic-2.0
-    stars: 2998
+    stars: 6862
     deployment: [docker, self-hosted, local]
     commercial_api_required: true
     source_available: true
     status: active
     official_demo: https://dramaclaw.ai
-    notes: Stars checked on 2026-08-04 Beijing time; release v1.2.1 was published on 2026-08-03; source-available under Elastic License 2.0, which restricts hosted-service resale; default setup uses the official OpenAI-compatible gateway, but BYO gateway is supported
+    notes: Stars checked on 2026-10-13 Beijing time; latest release v2.0.6 dated 2026-09-28 adds video extension and model-backed resolution/frame-rate enhancement; source-available under Elastic-2.0; hosted-service offering restricted; retain Powered by DramaClaw branding and third-party notices
+    checked_at: "2026-10-13"
 
   - name: ai-fusion-video
     repo: https://github.com/Stonewuu/ai-fusion-video
     team: [Stonewu]
     category: end-to-end
     description: 基于 Agent 的全流程短剧、漫剧与视频创作平台，覆盖剧本、分镜、图像、视频和素材管理
-    tags: [script-to-video, storyboard, motion-comic, multi-agent, java, self-hosted]
+    tags: [script-to-video, storyboard, motion-comic, multi-agent, java, self-hosted, comfyui, music, sound-effects]
     license: MIT
-    stars: 1158
+    stars: 1613
     deployment: [docker, self-hosted, web]
     commercial_api_required: true
     source_available: true
     status: active
-    notes: Stars checked on 2026-08-04 Beijing time; release v1.0.0 was published on 2026-08-03; core generation still depends on third-party model providers
+    notes: Stars checked on 2026-10-13 Beijing time; v1.2.0 released 2026-10-11 adds optional Sonilo music/sound effects and improves ComfyUI binding, storyboard refresh and media persistence; amd64/arm64 Docker images; external model APIs or self-hosted ComfyUI required
+    checked_at: "2026-10-13"
 
   - name: AID
-    repo: https://github.com/gzxx-2025/aid-server
+    repo: https://github.com/gzxx-2025/aid-studio
     team: [gzxx-2025, Photon-Info-Hangzhou]
     category: end-to-end
     description: 面向 AI 漫剧、AI 短剧、AI 电影与叙事视频的全开源生产平台，覆盖故事分集、资产、分镜、图片视频、配音、计费和运营后台
     tags: [short-drama, motion-comic, ai-film, storyboard, character-consistency, dubbing, self-hosted, billing, ops, multi-model]
     license: MIT
-    stars: 23
+    stars: 880
     deployment: [docker, self-hosted, web, systemd]
     commercial_api_required: true
     source_available: true
     status: active
     official_demo: https://www.aidstudio.com.cn/
-    notes: Stars checked on 2026-08-16 Beijing time; primary repo is aid-server, with aid-web and aid-admin as companion fronts; early public validation, but the stack is unusually complete in private deployment, operations, billing, and upgrade tooling
+    notes: Stars checked on 2026-10-13 Beijing time; migrated from aid-server to unified aid-studio repository including server, creator/admin fronts and deployment/upgrade tooling; latest release v2.2.4; model services, object storage, MySQL/Redis/RocketMQ configured separately
+    name: AID Studio
+    checked_at: "2026-10-13"
 
   - name: OnlyShot
     repo: https://github.com/A-cat-with-carrots/OnlyShot
@@ -240,18 +338,21 @@ projects:
     notes: Stars checked on 2026-07-30 Beijing time; updated Jul 30, 2026 on the short-drama topic page; custom license allows private deployment and commercial use but restricts multi-space hosted services and branding removal
 
   - name: drama-skills
-    repo: https://github.com/worldwonderer/drama-skills
-    team: [worldwonderer]
+    repo: https://github.com/zenstory-ai/drama-skills
+    team: [ZenStory-AI]
     category: agent-skill
-    description: 面向 Codex 和 Claude Code 的 AI 短剧技能套件，覆盖写作、资产、分镜、视频提示词和独立审查
-    tags: [agent-skill, codex, claude-code, storyboard, prompt-engineering, review]
+    description: 11 个短剧与漫剧 Skill，覆盖小说改编、分集剧本、一致性锁、分镜、提示词、投产、剪辑与审查
+    tags: [short-drama, motion-comic, novel-adaptation, storyboard, character-consistency, reference-audio, editing, review, codex, claude-code]
     license: MIT
-    stars: 375
+    stars: 2800
     deployment: [agent-skill]
     commercial_api_required: optional
     source_available: true
     status: active
-    notes: Stars checked on 2026-07-30 Beijing time; updated Jul 30, 2026 on the short-drama topic page; method and skill suite rather than a standalone web app
+    notes: Stars checked on 2026-10-13 Beijing time; 2800 is an approximate snapshot from GitHub's rounded 2.8k display, not an exact API count; migrated from worldwonderer/drama-skills; v0.8.1 adds still/video mixed editing and character reference-audio binding; external generation tools and FFmpeg required
+    name: Drama Skills
+    stars_are_approximate: true
+    checked_at: "2026-10-13"
 
   - name: shuohao-skills
     repo: https://github.com/eternityspring/shuohao-skills
@@ -465,6 +566,112 @@ projects:
     notes: README 说明需配置 DashScope、SiliconFlow 和 RunningHub 等外部服务
 
 observation_watchlist:
+  - name: Dralo Studio
+    repo: https://github.com/lnblfkj-del/Dralo-Studio
+    team: [lnblfkj-del]
+    category: observation
+    description: 本地短剧工作台，覆盖分集剧本、资产、无限画布、3D 预演、生成与多轨剪辑
+    tags: [short-drama, motion-comic, storyboard, 3d-previs, infinite-canvas, editing, self-hosted]
+    license: Apache-2.0
+    stars: 7
+    deployment: [local, self-hosted, web]
+    commercial_api_required: optional
+    source_available: true
+    status: watch
+    homepage: https://www.wal365.com/
+    checked_at: "2026-10-13"
+    notes: v0.1.0-preview.2; standalone source excludes cloud operations; cross-platform and paid generation not fully validated; BYO model services; not deployment-tested in this review
+
+  - name: Juliu Studio
+    repo: https://github.com/JerrIsTheBesta/AI-Short-Drama-Studio
+    team: [JerrIsTheBesta]
+    category: observation
+    description: 剧流 Studio，Electron/Vue 短剧工作台，覆盖剧本、资产、分镜、配音、字幕、剪辑与 ComfyUI/模型适配
+    tags: [short-drama, storyboard, electron, self-hosted, comfyui, video-editing, tts, subtitles]
+    license: MIT
+    stars: 17
+    deployment: [desktop, windows, web, local]
+    commercial_api_required: optional
+    source_available: true
+    status: watch
+    checked_at: "2026-10-13"
+    notes: v0.1.7 and Windows installer available; multi-episode continuity and reproducible finished-film evidence remain limited; generation requires APIs or user-managed ComfyUI; not deployment-tested
+
+  - name: AI Short Drama Workbench
+    repo: https://github.com/CZ3744/ai-short-drama-workbench
+    team: [CZ3744]
+    category: observation
+    description: 本地优先的短剧与漫剧工作台，覆盖剧本、分镜、素材及 FFmpeg 视频合成
+    tags: [short-drama, motion-comic, storyboard, local-first, ffmpeg, bring-your-own-key]
+    license: MIT
+    stars: 1
+    deployment: [local, web]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-13"
+    notes: Created 2026-10-08; BYO APIs; early source release with little independent validation; not deployment-tested
+
+  - name: Huohuo Drama
+    repo: https://github.com/appolloqin/huohuo-drama
+    team: [appolloqin]
+    category: observation
+    description: 小说到剧本、分镜、资产、TTS 与分集导出的平台，声明分层叙事记忆
+    tags: [short-drama, novel-to-video, multi-episode, storyboard, tts, continuity]
+    license: unspecified
+    stars: 11
+    deployment: [self-hosted, web]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-13"
+    notes: No declared license; access to source is not reuse or commercial authorization; narrative memory claims need independent validation; not deployment-tested
+
+  - name: AI Canvas Tauri
+    repo: https://github.com/Tenney95/AI-Canvas-tauri
+    team: [Tenney95]
+    category: observation
+    description: 本地可视化画布，覆盖分集工作区、共享资产、ComfyUI、Agent、MCP 与 Blender
+    tags: [short-drama, visual-workflow, episode-workspace, asset-management, comfyui, mcp, blender, tauri]
+    license: custom-source-available
+    stars: 219
+    deployment: [desktop, local]
+    commercial_api_required: optional
+    source_available: true
+    status: watch
+    checked_at: "2026-10-13"
+    notes: Current custom license restricts commercial redistribution, SaaS and related commercialization; separate authorization required for restricted uses; proposed MIT conversion at 10k stars is not the current license
+
+  - name: MangaStudio
+    repo: https://github.com/bo961386926/manga-studio
+    team: [bo961386926]
+    category: observation
+    description: 剧本到资产与关键帧的漫剧工作台，支持服装变体、首尾帧、镜头拆分与素材导出
+    tags: [motion-comic, short-drama, storyboard, keyframe, character-consistency, electron, self-hosted]
+    license: MIT
+    stars: 25
+    deployment: [web, desktop, docker]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-13"
+    notes: Stars checked on 2026-10-13 Beijing time; latest main commit remains 2026-08-18 despite newer pushed_at metadata; defaults to GitCC API; limited evidence for episodic memory, complete audio and automated editing; not deployment-tested
+
+  - name: Qingshan Short Drama Engine
+    repo: https://github.com/rogerwu188/qingshan-short-drama-production-line
+    team: [rogerwu188]
+    category: observation
+    description: Python 与 CLI 短剧生产引擎，覆盖剧本、连续性、生成、FFmpeg 剪辑、QA、持久化任务与发行回执
+    tags: [short-drama, cli, continuity, editing, ffmpeg, quality-gates, durable-jobs, publishing]
+    license: MIT
+    stars: 2
+    deployment: [local, cli]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-13"
+    notes: Stars checked on 2026-10-13 Beijing time; 2026-10-12 commits add source acquisition and original-story fallback; latest release candidate explicitly UNVALIDATED, not production/stable approval; provider and publishing adapters need real-environment verification
+
   - name: ShotPlan
     repo: https://github.com/Pensioner-11/ShotPlan
     team: [Su-Guo, Pensioner-11]
@@ -545,6 +752,53 @@ observation_watchlist:
     status: watch
     checked_at: "2026-08-04"
     notes: 仓库于 2026-07-21 公开，2026-08-03 发布 v1.0.1；带 tests、离线 fallback 和受控付费渲染门禁，方向清晰，但截至北京时间 2026-08-04 仍更接近短片创意与分镜研究 MVP，而非完整多集短剧生产系统，因此先放观察区
+
+research_papers:
+  - name: DramaChain Bench
+    paper: https://arxiv.org/abs/2609.00646
+    team: [Tencent-Hunyuan, Beijing-Film-Academy, Peking-University, Shenzhen-University]
+    category: benchmark
+    description: 对剧本、分镜、关键帧、镜头视频与多集成片进行 63 维全生产链评测和缺陷归因
+    tags: [short-drama, benchmark, pipeline-evaluation, multi-episode, defect-attribution]
+    version: v2
+    revised_at: "2026-10-03"
+    checked_at: "2026-10-13"
+    source_available: null
+    notes: Paper-only inclusion; complete production-engine source release not verified in this review; null denotes unknown source availability
+
+  - name: MVAgent
+    paper: https://arxiv.org/abs/2609.30609
+    category: agentic-video-research
+    description: 结合空间视角锚定、镜头结束状态记忆与接镜参考，以 Trunk-GDPO 逐镜优化跨镜一致性
+    tags: [multi-agent, multi-shot-video, character-consistency, spatial-grounding, continuity-memory, reinforcement-learning]
+    submitted_at: "2026-09-24"
+    checked_at: "2026-10-13"
+    source_available: null
+    notes: Paper inclusion does not imply a verified source or weight release; null denotes source release not verified in this review
+
+  - name: VideoGen-Agent
+    paper: https://arxiv.org/abs/2609.24997
+    homepage: https://andyca111.github.io/VideoGen_Agent/
+    category: agentic-video-research
+    description: 通过强化学习组织增强、生成与验证工具的多轮调用，提出 600 条提示词的 VABench
+    tags: [video-agent, tool-use, reinforcement-learning, verification, identity-preservation, multi-shot-video, benchmark]
+    version: v3
+    revised_at: "2026-10-05"
+    checked_at: "2026-10-13"
+    source_available: false
+    notes: Official project page labels code and VABench data as coming soon; research-paper entry, not an available open-source production engine
+
+official_resources:
+  - name: ZenStory novel-to-short-drama guide
+    url: https://zenstory.ai/zh/drama-skills/novel-to-short-drama
+    team: [ZenStory-AI]
+    type: official-guide
+    checked_at: "2026-10-13"
+  - name: ZenStory character-consistency guide
+    url: https://zenstory.ai/zh/drama-skills/character-consistency
+    team: [ZenStory-AI]
+    type: official-guide
+    checked_at: "2026-10-13"
 
 unavailable_or_redirected:
   - name: AIDrama Studio

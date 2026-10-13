@@ -41,6 +41,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 
 | 项目 | 出品团队 | 简介 | 许可证 | Stars | 备注 |
 |---|---|---|---:|---:|---|
+| 🏆🏠 [Story Claw](https://github.com/ZC89757/story-claw) | ZC89757 | 小说到分集短剧，覆盖阶段资产、固定声线、分镜、音频、VLM 镜头检查、ComfyUI/LTX 自托管视频及可选 MG 动画模板 | MIT | 28 | 北京时间 `2026-10-13` 核验；Windows 桌面与 CLI，MG 模板包独立安装；需 GPU/ComfyUI 及 LLM、生图、TTS API；重试超限可能接受未通过质检的片段 |
 | 🏆🏠 [Toonflow](https://github.com/HBAI-Ltd/Toonflow-app) | HBAI Ltd | 小说/剧本到动画短剧；提供编剧、分镜、角色、视频生成、三层 Agent 和无限画布工作台 | Apache-2.0 | 10.6k | 桌面端/服务器部署；实际生成需要配置模型服务 |
 | 🏆⚠️ [Huobao Drama](https://github.com/chatfire-AI/huobao-drama) | Chatfire AI | 一句话到剧本、角色、分镜、配音、视频与整集导出的自动化平台 | CC BY-NC-SA 4.0 | 13.0k | **非商用许可**；内置 Mastra Agents，支持多家模型 API |
 | 🏆🏠 [Huobao Drama AI](https://github.com/dav-niu474/huobao-drama-ai) | dav-niu474 | 基于 Next.js 16 的全栈 AI 短剧创作平台，覆盖剧本上传/改写、角色场景提取、分镜、图片/视频/TTS 和多供应商模型配置 | MIT | 77 | Stars 于 `2026-08-21` 北京时间复核；`2026-08-21` 有连续功能与安全更新；受 Huobao Drama 启发，但为独立 MIT 实现，更适合商用评估 |
@@ -48,9 +49,9 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | 🏆🏠 [Jellyfish](https://github.com/Forget-C/Jellyfish) | Forget-C / 社区 | 面向 AI 短剧的生产工作区，强调剧本拆解、资产复用、一致性管理、生成任务和导出 | Apache-2.0 | 4.6k | Docker Compose；MySQL、Redis、对象存储等完整后端 |
 | 🏆🏠 [ArcReel](https://github.com/ArcReel/ArcReel) | ArcReel | Agent 驱动的小说到视频工作台，覆盖角色/场景/道具、标准剧本、分镜图与视频 | AGPL-3.0 | 3.0k | Claude Agent SDK；需关注 AGPL 网络服务义务 |
 | 🏆 [VideoClaw](https://github.com/HITsz-TMG/VideoClaw) | HITsz-TMG / Lychee Agent | 从创意、剧本、角色场景、分镜和参考图到视频生成、剪辑及导出的 AI 视频员工 | MIT | 1.5k | 支持 OpenClaw Skill、多集续写；展示 8 集真人短剧和 5 集动态漫 |
-| 🏆⚠️🏠 [DramaClaw](https://github.com/dramaclaw/dramaclaw) | Neo Flying AI Laboratory | 面向工业化短剧/漫剧生产的全链路系统，覆盖小说解析、资产一致性、分镜、配音、场景锁定、画布探索和成片导出 | Elastic-2.0 | 3.0k | 源码可见且可自托管，但禁止作为托管服务转售；`2026-08-03` 发布了 `v1.2.1` |
-| 🏆🏠 [ai-fusion-video](https://github.com/Stonewuu/ai-fusion-video) | Stonewu | 基于 Agent 的全流程短剧/漫剧/视频创作平台，覆盖分集分场景剧本管理、AI 分镜、AI 绘图、AI 视频、素材管理和 Docker 部署 | MIT | 1.2k | Java 后端 + Next.js 前端；可自托管；`2026-08-03` 发布了 `v1.0.0`；核心生成仍依赖第三方模型提供方 |
-| 🏆🏠 [AID](https://github.com/gzxx-2025/aid-server) | gzxx-2025 / 光子讯息(杭州)科技有限公司 | 面向 AI 漫剧、AI 短剧、AI 电影与叙事视频的开源生产平台，覆盖故事/分集、角色道具场景、分镜、图片/视频生成、配音，并提供计费、后台和在线升级 | MIT | 23 | 主仓库为 `aid-server`，配套 `aid-web` 与 `aid-admin`；Stars 于 `2026-08-16` 复核；社区验证仍早期，但私有化部署和运营能力很完整 |
+| 🏆⚠️🏠 [DramaClaw](https://github.com/dramaclaw/dramaclaw) | Neo Flying AI Laboratory | 短剧/漫剧生产链，覆盖资产一致性、分镜、配音、画布探索、导出、视频延长及模型驱动画质/帧率增强 | Elastic-2.0 | 6,862 | 北京时间 `2026-10-13` 核验；最新正式版为 `2026-09-28` 的 v2.0.6；源码可见、可自托管，限制向他人提供托管服务，须保留 Powered by DramaClaw 标识与相关声明 |
+| 🏆🏠 [ai-fusion-video](https://github.com/Stonewuu/ai-fusion-video) | Stonewu | Agent 短剧/漫剧平台，覆盖分集剧本、分镜、图像/视频生成、ComfyUI 工作流、可选配乐音效与媒体任务管理 | MIT | 1,613 | 北京时间 `2026-10-13` 核验；`2026-10-11` 发布 v1.2.0，修复媒体持久化与分镜刷新；提供 amd64/arm64 Docker 镜像，需模型 API 或自建 ComfyUI |
+| 🏆🏠 [AID Studio](https://github.com/gzxx-2025/aid-studio) | gzxx-2025 / 光子讯息(杭州)科技有限公司 | 统一源码仓的短剧、漫剧与 AI 影视平台，覆盖剧本、资产、分镜、图像/视频、配音、计费、管理后台与升级 | MIT | 880 | 北京时间 `2026-10-13` 核验；由 aid-server 迁移，统一服务端、创作端、管理端与部署工具；最新正式版 v2.2.4，模型服务、存储及后端基础设施需另配 |
 | 🏆 [LumenX Studio](https://github.com/alibaba/lumenx) | Alibaba | 小说到短漫剧：资产提取、风格定义、资产生成、分镜脚本、分镜图和视频生成 | MIT | 764 | 原生集成 Qwen 与 Wan 系列能力 |
 | ⚠️🏠 [AI Story](https://github.com/xhongc/ai_story) | xhongc | 自托管故事视频生产平台，覆盖文案创作、分镜、图片生成、运镜规划、图生视频和项目管理 | CC BY-NC-SA 4.0（README） | 987 | 与短剧直接相关、源码较完整，但为非商用许可；多集叙事和一致性机制公开说明较弱 |
 | 🏆🏠 [LocalMiniDrama](https://github.com/xuanyustudio/LocalMiniDrama) | Xuanyu Studio | 本地短剧/漫剧工作流，从故事、分镜到视频，项目数据保存在本机 | MIT | 738 | “本地”主要指数据和工作台；云端生成仍需相应 API |
@@ -68,6 +69,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | ⚠️ [BigBanana AI Director](https://github.com/shuyu-labs/BigBanana-AI-Director) | Shuyu Labs | Script-to-Asset-to-Keyframe 工业化流程，覆盖季/集管理、资产库、九宫格、首尾帧和粗剪 | CC BY-NC-SA 4.0 | 1.5k | 高度相关，但非商用；公开仓库现为历史参考版本，后续更新通过官方 Docker 镜像发布 |
 | 🏠 [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | AIDC-AI | AI 全自动短视频引擎，执行创意规划、素材生成与视频合成 | Apache-2.0 | 23.7k | 更偏通用短视频，但其自动化架构和 Skill 设计值得复用 |
 | 🏠 [OpenMontage](https://github.com/calesthio/OpenMontage) | Calesthio AI Labs | 面向编码智能体的完整视频生产系统，含研究、剧本、素材、剪辑、合成和质量门禁 | AGPL-3.0 | 25.9k | 非短剧专用；适合借鉴 provider 选择、成本治理、审核和可复现流水线 |
+| 🧩🏠 [ReShot](https://github.com/maosika-ai/reshot) | Maosika（猫斯卡） | 将参考视频转为深度、骨架或边缘控制视频，复用站位、动作与运镜并替换角色 | Apache-2.0 | 51 | 北京时间 `2026-10-13` 核验；v0.5.0，支持本地 CLI/Web UI、Colab 与 ComfyUI；输出控制素材而非成片，下游视频模型与模型权重许可需分别评估 |
 | 🏠 [Inline Studio](https://github.com/inlineresearch/Inline-Studio) | Inline Research | 桌面端 AI 影视创作画布，提供版本化 take、时间线合成，以及 fal/ComfyUI 混合生成工作流 | MIT | 160 | 更偏相邻基础设施而非短剧专用，但很适合分镜驱动的叙事迭代与镜头管理 |
 | 🏠 [VibeFrame](https://github.com/vericontext/vibeframe) | VeriContext | CLI-first、MCP-ready 的 AI 原生视频编辑器，使用 Storyboard/Design 文件驱动生成和修订 | MIT | 140 | 可作为短剧分镜、素材构建、时间线和成片检查的基础设施 |
 
@@ -83,9 +85,13 @@ workflows, models, and resources for AI short-drama and micro-series production.
 
 | 项目/Skill | 团队 | 能力 | 许可证 / Stars | 注意事项 |
 |---|---|---|---|---|
+| 🧩 [漫剧老李 / Short-Drama Director Suite](https://github.com/lixiaoxiao9888-create/manju-laoli-skill) | lixiaoxiao9888-create | 短剧导演 Skill，覆盖四视图资产、空间站位、对白、段缝连续性、Seedance/H3 提示词适配、稿件检查与离线分镜看板 | MIT / 1,158 | 北京时间 `2026-10-13` 核验；最新正式版仍为 `2026-09-20` 的 v6.9.8，近期提交主要调整赞助文档；测试版，整合修改开源内容；生成需外部工具 |
+| 🧩 [Dramake](https://github.com/xixihhhh/ai-short-drama-skill) | xixihhhh | 导演与制片 Skill，覆盖跨集记忆、连续性与声线账本、预算、任务恢复、验收门禁、剪辑计划与校验脚本 | MIT / 50 | 北京时间 `2026-10-13` 核验；最新推送为 `2026-08-29`；需另接生成工具；示例为制作清单，不代表已验收的完整影片 |
+| 🧩 [Open Film Skills](https://github.com/62656456/ai-film-skills) | 62656456 | 21 个影视 Skill，覆盖编导、资产、分镜、摄影、可选 3D 预演、制作交接与全片审查 | Apache-2.0 / 66 | 北京时间 `2026-10-13` 核验；v1.4.0 同步源码与独立下载包，18 个常规包 + 3 个自选实验包；需外接生成工具，打包与测试不代表成片质量验收 |
+| 🧩💳 [StarReel MCP](https://github.com/starreel/starreel-mcp) | StarReel | 商业剧本到成片服务的开源 MCP 客户端，提供资产、分镜、视频、TTS 等工具 | MIT / 0 | 北京时间 `2026-10-13` 核验；`2026-10-12` 源码同步标注 v0.1.138；仅薄客户端开源，生成、一致性质检、审核和计费依赖预付费闭源服务端 |
 | 🧩 [libtv-skills](https://github.com/libtv-labs/libtv-skills) | LibTV Labs | 将 LibLib.tv 图片/视频 OpenAPI 封装为 OpenClaw 兼容 Skill | MIT / 781 | 是能力适配层，不是完整短剧系统 |
 | 🧩 [VideoClaw Skill](https://github.com/HITsz-TMG/VideoClaw) | HITsz-TMG | 在 OpenClaw 中通过对话启动完整视频/短剧生成 | MIT / 1.5k | 可通过 ClawHub 安装；执行前仍需审核配置及 API 权限 |
-| 🧩 [drama-skills](https://github.com/worldwonderer/drama-skills) | worldwonderer | 面向 Codex 和 Claude Code 的短剧技能套件，覆盖项目初始化、写作、资产、分镜、视频提示词与独立审查 | MIT / 375 | 更偏生产方法层与技能编排，不是独立成片应用 |
+| 🧩 [Drama Skills](https://github.com/zenstory-ai/drama-skills) | ZenStory AI | 11 个短剧/漫剧 Skill，覆盖小说改编、分集剧本、一致性锁、分镜、提示词、投产、剪辑与审查 | MIT / 约 2.8k | 北京时间 `2026-10-13` 核验（GitHub 页面约数）；由 worldwonderer/drama-skills 迁移，v0.8.1 新增静帧/视频混剪及角色参考音频绑定；需外接生成工具与 FFmpeg |
 | 🧩 [shuohao-skills](https://github.com/eternityspring/shuohao-skills) | eternityspring | 面向 AI 短剧前期生产的 Skill 合集，覆盖小说改编、角色/场景/道具设定、剧本写作与分镜投产包，适配 Codex 与 Claude Code | Apache-2.0 / 1.5k | 前期生产与质量门设计较强，内置 selftest；不是独立的视频生成或剪辑应用 |
 | 🧩 [Drama Generator](https://clawhub.ai/zhenstaff/drama-generator) | ClawHub 社区 | 多角色剧本、OpenAI TTS、Whisper 和 Remotion 合成 | 未核验 | 更接近动态图形/有声剧，非电影级生成 |
 | 🧩 [One Click Video Creation](https://clawhub.ai/zuoyuting214/skills/zyt-one-click-video-creation) | ClawHub 社区 | 文案、分镜、TTS、数字人与 AI 素材混剪 | 未核验 | 依赖外部模型与 FFmpeg |
@@ -112,6 +118,11 @@ workflows, models, and resources for AI short-drama and micro-series production.
 
 ### 直接面向短剧
 
+- **[DramaChain Bench：短剧生成全生产链评测](https://arxiv.org/abs/2609.00646)**
+  Haoyuan Shi、Mingtao Chen 等，腾讯混元及合作团队，2026。覆盖剧本、分镜、关键帧、镜头视频与
+  多集成片，以 63 个维度及定位到时空的缺陷归因评估上游问题传递；`2026-10-03` 更新 v2。
+  收录为研究基准，不据此认定其生产引擎完整开源。
+
 - **[DramaDirector: Geometry-Guided Short Drama Generation](https://arxiv.org/abs/2606.24107)**  
   Hengji Zhou 等，2026。通过分镜规划、文图对齐奖励以及从真实短剧镜头中检索深度/姿态条件，
   引导首帧与图生视频生成；同时提出 **DramaBoard**，由 35 部真人短剧、2.8K 集、81K 镜头构成。
@@ -123,6 +134,14 @@ workflows, models, and resources for AI short-drama and micro-series production.
   并通过多阶段 Reviewer 返工剧本、视觉和视频；同时提出 **Short-Drama-Bench**。
 
 ### Agentic Video / 电影叙事
+
+- **[MVAgent：一致性条件构建与逐镜策略优化的多智能体视频生成](https://arxiv.org/abs/2609.30609)**
+  Xiangyu Kong 等，2026。结合空间视角锚定、镜头结束状态记忆和接镜参考，以 Trunk-GDPO 逐镜
+  优化跨镜角色、空间与动作连续性；`2026-09-24` 提交。论文收录不代表已核实源码或权重公开。
+- **[VideoGen-Agent：视频生成智能体的强化学习](https://arxiv.org/abs/2609.24997)**
+  Binxu Li 等，2026。学习在增强、生成与验证工具间进行多轮调用，提出 600 条提示词的 VABench；
+  `2026-10-05` 更新 v3。[官方项目页](https://andyca111.github.io/VideoGen_Agent/)截至北京时间
+  `2026-10-13` 仍标注代码与基准数据待发布。
 
 - **[Co-Director: Agentic Generative Video Storytelling](https://arxiv.org/search/?query=Co-Director%3A+Agentic+Generative+Video+Storytelling&searchtype=title)**  
   Yale Song 等，2026。分层多 Agent、全局多臂老虎机搜索与局部多模态自修订；
@@ -154,6 +173,13 @@ workflows, models, and resources for AI short-drama and micro-series production.
 
 | 项目 | 团队 | 关注原因 | 许可证 / Stars | 当前限制 |
 |---|---|---|---|---|
+| [MangaStudio / 漫剧工场](https://github.com/bo961386926/manga-studio) | bo961386926 | 剧本→资产→关键帧工作台，支持服装变体、首尾帧、镜头拆分及 Web/Electron/Docker 部署 | MIT / 25 | 北京时间 `2026-10-13` 核验；虽有更新的推送记录，主分支最新提交仍为 `2026-08-18`；默认 GitCC API，多集记忆、完整音频与自动剪辑证据有限 |
+| [青山 AI 短剧引擎](https://github.com/rogerwu188/qingshan-short-drama-production-line) | rogerwu188 | Python/CLI 生产链，覆盖剧本、连续性、生成、FFmpeg 剪辑、QA、持久化任务与发行回执 | MIT / 2 | 北京时间 `2026-10-13` 核验；`2026-10-12` 新增来源获取与原创故事回退；最新发布候选明确未验证，生成/发布适配仍需真实环境验收 |
+| [Dralo Studio](https://github.com/lnblfkj-del/Dralo-Studio) | lnblfkj-del | 本地短剧工作台，覆盖分集剧本、资产、无限画布、3D 预演、生成与多轨剪辑 | Apache-2.0 / 7 | 北京时间 `2026-10-13` 核验；v0.1.0-preview.2，单机源码不含云端运营；跨平台与付费生成未全量验收 |
+| [剧流 Studio](https://github.com/JerrIsTheBesta/AI-Short-Drama-Studio) | JerrIsTheBesta | Electron/Vue 工作台，覆盖剧本、资产、分镜、ComfyUI/模型适配、配音、字幕与剪辑 | MIT / 17 | 北京时间 `2026-10-13` 核验；已有 v0.1.7 和 Windows 安装包，多集连续性与可复现成片证据仍有限 |
+| [AI Short Drama Workbench](https://github.com/CZ3744/ai-short-drama-workbench) | CZ3744 | 本地优先的短剧/漫剧工作台，覆盖剧本、分镜、资产与 FFmpeg 合成 | MIT / 1 | 北京时间 `2026-10-13` 核验；`2026-10-08` 新建，自配 API，公开时间短、独立验证不足 |
+| [Huohuo Drama](https://github.com/appolloqin/huohuo-drama) | appolloqin | 小说到剧本、分镜、资产、TTS 与分集导出，声明分层叙事记忆 | 未声明 / 11 | 北京时间 `2026-10-13` 核验；未声明许可证，源码可访问不代表可再用或商用；记忆效果待独立验证 |
+| [AI Canvas Tauri](https://github.com/Tenney95/AI-Canvas-tauri) | Tenney95 | 本地可视化画布，覆盖分集工作区、共享资产、ComfyUI、Agent、MCP 与 Blender | 自定义源码可见许可 / 219 | 北京时间 `2026-10-13` 核验；当前自定义源码可见许可限制商业再分发/SaaS，相关用途需单独授权；10k Stars 转 MIT 仅为计划 |
 | [ShotPlan](https://github.com/Pensioner-11/ShotPlan) | Su Guo 等 / `Pensioner-11` | 面向多镜头电影式视频生成，支持显式切点控制，并增强跨镜头一致性；源码、论文和模型权重于 `2026-07-20` 同步公开 | Apache-2.0 / 72 | 目前是研究原型，不是完整短剧生产链；截至北京时间 `2026-08-04` 复核仍无 release，且 `2026-07-21` 之后没有新的代码推送；依赖 Wan 2.1/2.2 权重，数据集条款为 research-only |
 | [Seedance Drama Maker](https://github.com/wanglongxiao/seedance-drama-maker) | wanglongxiao | 一句话到短剧的多智能体链路，覆盖角色一致分镜审核与逐镜复核，但核心生成与审核仍绑定 BytePlus、SeeDance、SeeDream、Seed-Speech 和 TOS；GitHub 尚无 release 页 | MIT / 10 | 按北京时区 `2026-08-20` 复核，源码完整但依赖锁定、更新与发版信号不足，先列观察区持续观察 |
 | [AI Showrunner](https://github.com/Yanjin-ai/showrunner) | `Yanjin-ai` | 面向竖屏微短剧的全链路 Agent，覆盖剧本、Story Bible、分镜、逐镜生成、批改返工、剪辑和多语字幕 | 未声明 / 0 | 与微短剧链路直接相关且源码完整，但截至北京时间 `2026-07-23` 仍无明确许可证、无 release，更像 hackathon 原型，并依赖 Qwen Cloud 与第三方视频服务 |
@@ -162,6 +188,8 @@ workflows, models, and resources for AI short-drama and micro-series production.
 
 ### 官方教程、项目页与文章
 
+- [ZenStory：小说改编短剧指南](https://zenstory.ai/zh/drama-skills/novel-to-short-drama)；
+- [ZenStory：AI 短剧角色一致性指南](https://zenstory.ai/zh/drama-skills/character-consistency)；
 - [Toonflow 12 分钟快速上手](https://www.bilibili.com/video/BV1oXD7BqEqJ)；
 - [FireRed-OpenStoryline 官方演示与说明](https://fireredteam.github.io/demos/firered_openstoryline/)；
 - [MovieAgent 官方项目页](https://weijiawu.github.io/MovieAgent/)；
