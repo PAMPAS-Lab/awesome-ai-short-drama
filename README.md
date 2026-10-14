@@ -70,6 +70,7 @@ This list focuses on projects that address one or more of the following:
 | 🧩🏠 [ReShot](https://github.com/maosika-ai/reshot) | Maosika | Converts reference video into depth, pose, or edge control clips to reuse blocking and camera movement with different characters | Apache-2.0 | 51 | Checked October 13, 2026 Beijing time; v0.5.0; local CLI/Web UI, Colab and ComfyUI; outputs control media, not finished films; downstream video models and model-weight licenses must be considered separately |
 | 🏠 [Inline Studio](https://github.com/inlineresearch/Inline-Studio) | Inline Research | Desktop AI filmmaking canvas with versioned takes, timeline composition, and hybrid fal/ComfyUI generation | MIT | 160 | Adjacent rather than drama-specific; strong fit for storyboard-driven narrative iteration and shot management |
 | 🏠 [VibeFrame](https://github.com/vericontext/vibeframe) | VeriContext | CLI-first, MCP-ready AI video editor driven by storyboard and design files | MIT | 140 | Useful infrastructure for storyboard builds, asset generation, timelines, and render inspection |
+| 💳 [PowerTokens Video Studio](https://github.com/PowerTokens/video-studio) | PowerTokens | Video Studio 1.12 (Windows desktop + web) that batch-renders an Excel/CSV shot list with Wan · Seedance · Kling · and more, keeps a shared cast sheet on every prompt, and resumes interrupted jobs by Task ID without resubmitting | MIT | 0 | Runs on the PowerTokens API |
 
 ### Editing and Post-Production
 
