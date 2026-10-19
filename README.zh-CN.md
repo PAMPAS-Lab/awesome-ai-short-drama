@@ -72,6 +72,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | 🧩🏠 [ReShot](https://github.com/maosika-ai/reshot) | Maosika（猫斯卡） | 将参考视频转为深度、骨架或边缘控制视频，复用站位、动作与运镜并替换角色 | Apache-2.0 | 51 | 北京时间 `2026-10-13` 核验；v0.5.0，支持本地 CLI/Web UI、Colab 与 ComfyUI；输出控制素材而非成片，下游视频模型与模型权重许可需分别评估 |
 | 🏠 [Inline Studio](https://github.com/inlineresearch/Inline-Studio) | Inline Research | 桌面端 AI 影视创作画布，提供版本化 take、时间线合成，以及 fal/ComfyUI 混合生成工作流 | MIT | 160 | 更偏相邻基础设施而非短剧专用，但很适合分镜驱动的叙事迭代与镜头管理 |
 | 🏠 [VibeFrame](https://github.com/vericontext/vibeframe) | VeriContext | CLI-first、MCP-ready 的 AI 原生视频编辑器，使用 Storyboard/Design 文件驱动生成和修订 | MIT | 140 | 可作为短剧分镜、素材构建、时间线和成片检查的基础设施 |
+| 🧩🏠 [PenShot / Story Shot Agent](https://github.com/neopen/story-shot-agent) | neopen | 将剧本、小说、影视/动画或短剧转成连贯分镜与视频模型提示词，维护跨片段角色、场景和剧情连续性 | MIT | 228 | 北京时间 2026-10-20 核验；v0.3.11；支持 Docker、PyPI、MCP、REST、Function Calling 与 A2A；属于前期分镜 Agent，不负责视频渲染 |
 
 ### 剪辑与后期制作
 
@@ -185,6 +186,13 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | [AI Showrunner](https://github.com/Yanjin-ai/showrunner) | `Yanjin-ai` | 面向竖屏微短剧的全链路 Agent，覆盖剧本、Story Bible、分镜、逐镜生成、批改返工、剪辑和多语字幕 | 未声明 / 0 | 与微短剧链路直接相关且源码完整，但截至北京时间 `2026-07-23` 仍无明确许可证、无 release，更像 hackathon 原型，并依赖 Qwen Cloud 与第三方视频服务 |
 | [my-adrama](https://github.com/hellomrli/my-adrama) | `hellomrli` | 新近公开的 GUI + CLI 短剧工作流，覆盖剧本、资产、分镜、视频、阶段审核和本地打包；`2026-07-26` 已发布 `v0.5.0` | MIT / 0 | 与短剧链路直接相关且源码完整，但截至北京时间 `2026-08-04` 复核仍属早期公开项目、暂无社区验证，并强依赖 OpenAI/Gemini/Grok 等商业 API |
 | [guided-story-video-agent](https://github.com/1667001332/guided-story-video-agent) | `1667001332` | 从一句方向到创意卡、30-60 秒剧本、分镜和受控视频渲染的研究型 Agent，带 tests 与离线 fallback；`2026-08-03` 已发布 `v1.0.1` | MIT / 1 | 很有价值的 story-to-video 研究 MVP，但截至北京时间 `2026-08-04` 复核仍更接近短片创意和分镜实验，不是完整多集短剧生产系统；真实渲染仍依赖外部付费 provider |
+| [Plein](https://github.com/hoobnn/plein) | hoobnn | 本地优先的 AI 无限画布，将创意延展为剧本、分镜、镜头、配音和多轨剪辑 | AGPL-3.0 / 2 | 北京时间 2026-10-20 核验；v0.2.3；源码完整，支持实物输入预览、局部重做、失败恢复与项目包，但公开时间很短、独立成片证据有限 |
+| [Daoyan CLI](https://github.com/yuanbaobaoo/daoyan-cli) | yuanbaobaoo | 面向 ComfyUI 的制作编排 CLI，提供镜头重拍、校验、任务续跑与合片 | Apache-2.0 / 0 | 北京时间 2026-10-20 核验；v0.0.7；远端/GPU 生成链路仍不完整，尚不能视为端到端可部署方案 |
+| [AI Short Drama](https://github.com/ceoifung/ai-short-drama) | ceoifung | 素材或小说到编剧/审核/分镜/参考图/生产包、AI 质检与 FFmpeg 剪辑的工作流 | MIT / 0 | 北京时间 2026-10-20 核验；无 release、公开历史很短；真实视频仍需人工在 UpDream 平台生成 |
+| [SoloDrama](https://github.com/Hejunlong27/SoloDrama) | Hejunlong27 | 从创作到成片与成本台账的本地 CLI 批量短剧生产工具集 | Apache-2.0 / 2 | 北京时间 2026-10-20 核验；支持断点续跑、发行资料门禁、本地 ComfyUI 资产与 RunningHub 出片，但刚公开且强绑定 RunningHub |
+| [ShotForward](https://github.com/shotforward/shotforward) | ShotForward | 本地优先的桌面影视工作台，涵盖剧本、版本化资产、分镜、可撤销 Agent 变更、多模型视频与 FFmpeg 导出 | Apache-2.0 / 1 | 北京时间 2026-10-20 核验；v0.2.63；定位泛影视而非短剧专用，正式安装器主要面向 macOS ARM，部分模型服务收费 |
+| [AI Short Play Video Creation](https://github.com/ADC1920/AI-short-play-video-creation) | ADC1920 | 包含分镜/宫格规划、连续性、段缝检测、配音、排障脚本与最小多集样例的 Agent Skill | MIT / 0 | 北京时间 2026-10-20 核验；虽有自检脚本，但尚无 release 或社区验证；最终出片依赖即梦/Seedance |
+| [Video Factory](https://github.com/LordVayron/video-factory) | LordVayron | 由编码 Agent 驱动的微短剧工作台，提供角色锁定、分镜、音频先行、预算硬门禁、连续性质检与 FFmpeg 交付 | MIT / 0 | 北京时间 2026-10-20 核验；v1.0.0；亦面向广告和冥想视频，核心渲染和配音绑定 Kie.ai、ElevenLabs |
 
 ### 官方教程、项目页与文章
 

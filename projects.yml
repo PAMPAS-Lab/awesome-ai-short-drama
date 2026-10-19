@@ -35,6 +35,21 @@ projects:
     checked_at: "2026-10-13"
     notes: Stars checked on 2026-10-13 Beijing time; latest release v0.5.0; outputs control media, not final generated video; local extraction does not require paid generation APIs; downstream model services and weight licenses are separate
 
+  - name: PenShot / Story Shot Agent
+    repo: https://github.com/neopen/story-shot-agent
+    team: [neopen]
+    category: workflow-reference
+    description: 将剧本、小说或短剧拆解为连贯分镜与视频模型提示词，维护跨片段角色、场景与剧情连续性
+    tags: [storyboard-agent, script-to-storyboard, novel-to-video, character-consistency, scene-consistency, mcp, a2a]
+    license: MIT
+    stars: 228
+    deployment: [docker, pypi, local, mcp, rest-api]
+    commercial_api_required: optional
+    source_available: true
+    status: active
+    checked_at: "2026-10-20"
+    notes: Stars checked on 2026-10-20 Beijing time; v0.3.11; supports Docker, PyPI, MCP, REST, Function Calling and A2A; a pre-production/storyboard agent, not a video renderer
+
   - name: Story Claw
     repo: https://github.com/ZC89757/story-claw
     team: [ZC89757]
@@ -752,6 +767,111 @@ observation_watchlist:
     status: watch
     checked_at: "2026-08-04"
     notes: 仓库于 2026-07-21 公开，2026-08-03 发布 v1.0.1；带 tests、离线 fallback 和受控付费渲染门禁，方向清晰，但截至北京时间 2026-08-04 仍更接近短片创意与分镜研究 MVP，而非完整多集短剧生产系统，因此先放观察区
+
+  - name: Plein
+    repo: https://github.com/hoobnn/plein
+    team: [hoobnn]
+    category: observation
+    description: 本地优先 AI 无限画布，将创意延展为剧本、分镜、镜头、配音与多轨剪辑
+    tags: [short-drama, infinite-canvas, storyboard, voiceover, editing, local-first]
+    license: AGPL-3.0
+    stars: 2
+    deployment: [local, web]
+    commercial_api_required: optional
+    source_available: true
+    status: watch
+    checked_at: "2026-10-20"
+    notes: v0.2.3; source-complete with real-input preview, partial redo, failure recovery and project packages, but the public history is short and independent finished-film evidence is limited
+
+  - name: Daoyan CLI
+    repo: https://github.com/yuanbaobaoo/daoyan-cli
+    team: [yuanbaobaoo]
+    category: observation
+    description: 面向 ComfyUI 的短剧制作编排 CLI，覆盖镜头重拍、校验、任务续跑与合片
+    tags: [short-drama, cli, comfyui, retry, validation, ffmpeg]
+    license: Apache-2.0
+    stars: 0
+    deployment: [local, cli]
+    commercial_api_required: optional
+    source_available: true
+    status: watch
+    checked_at: "2026-10-20"
+    notes: v0.0.7; remote/GPU generation integrations remain incomplete, so it is not yet an end-to-end deployment option
+
+  - name: AI Short Drama
+    repo: https://github.com/ceoifung/ai-short-drama
+    team: [ceoifung]
+    category: observation
+    description: 素材或小说到编剧、审核、分镜、参考图、生产包、AI 质检与 FFmpeg 剪辑的工作流
+    tags: [short-drama, novel-to-video, storyboard, reference-image, quality-gates, ffmpeg]
+    license: MIT
+    stars: 0
+    deployment: [agent-skill, local]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-20"
+    notes: No release and only a short public history; actual video generation requires manual work in UpDream, so the full automation claim remains unverified
+
+  - name: SoloDrama
+    repo: https://github.com/Hejunlong27/SoloDrama
+    team: [Hejunlong27]
+    category: observation
+    description: 从创作到成片与成本台账的本地 CLI 批量短剧生产工具集
+    tags: [short-drama, cli, batch-production, cost-ledger, comfyui, runninghub, durable-jobs]
+    license: Apache-2.0
+    stars: 2
+    deployment: [local, cli, comfyui]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-20"
+    notes: Supports delivery-material gates, resumable runs, local ComfyUI assets and RunningHub rendering; newly public, no release, and tightly coupled to RunningHub
+
+  - name: ShotForward
+    repo: https://github.com/shotforward/shotforward
+    team: [shotforward]
+    category: observation
+    description: 本地优先的桌面影视工作台，涵盖剧本、版本化资产、分镜、可撤销 Agent 变更、视频生成与 FFmpeg 导出
+    tags: [filmmaking, storyboard, asset-versioning, agent, local-first, ffmpeg, seedance, minimax, wan]
+    license: Apache-2.0
+    stars: 1
+    deployment: [desktop, local]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-20"
+    notes: v0.2.63; source-complete, but broader than short drama, its primary installer targets macOS ARM, and some provider services are paid
+
+  - name: AI Short Play Video Creation
+    repo: https://github.com/ADC1920/AI-short-play-video-creation
+    team: [ADC1920]
+    category: observation
+    description: 短剧创作 Agent Skill，含分镜/宫格规划、连续性与段缝检查、配音、排障脚本和最小多集样例
+    tags: [short-drama, agent-skill, storyboard, character-consistency, video-continuity, dubbing, quality-gates]
+    license: MIT
+    stars: 0
+    deployment: [agent-skill, local]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-20"
+    notes: Source includes self-check scripts and a multi-episode example, but there is no release or community validation; final rendering depends on Jimeng/Seedance
+
+  - name: Video Factory
+    repo: https://github.com/LordVayron/video-factory
+    team: [LordVayron]
+    category: observation
+    description: 由编码 Agent 驱动的微短剧与视频生产工作台，提供角色锁定、分镜、音频先行、预算硬门禁、连续性质检与 FFmpeg 交付
+    tags: [micro-drama, agent-skill, cast-lock, storyboard, audio-first, budget, quality-gates, ffmpeg]
+    license: MIT
+    stars: 0
+    deployment: [local, agent-skill, cli]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-20"
+    notes: v1.0.0; also targets ads and ambient video, has no community validation, and relies on Kie.ai for rendering plus ElevenLabs for voices
 
 research_papers:
   - name: DramaChain Bench
