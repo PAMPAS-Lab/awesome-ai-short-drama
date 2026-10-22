@@ -81,6 +81,22 @@ projects:
     checked_at: "2026-10-13"
     notes: Stars checked on 2026-10-13 Beijing time; latest release remains v6.9.8 dated 2026-09-20; recent commits mainly update sponsorship documentation; beta integrating modified open-source content; external generation tools required; prompt checks do not guarantee film quality
 
+  - name: Kineo
+    repo: https://github.com/Agions/kineo
+    team: [Agions]
+    category: end-to-end
+    description: 本地多智能体漫剧工作台，从剧本、小说或提示词经共享项目黑板、角色一致性锚点、分镜、图像/视频/TTS 到原生合成
+    tags: [motion-comic, short-drama, multi-agent, project-blackboard, character-consistency, storyboard, tts, tauri, rust, ffmpeg]
+    license: MIT
+    stars: 128
+    deployment: [desktop, local]
+    commercial_api_required: true
+    source_available: true
+    status: experimental
+    homepage: https://agions.github.io/kineo/
+    checked_at: "2026-10-22"
+    notes: Stars checked on 2026-10-22 Beijing time; v0.0.2 released 2026-10-21; Tauri/React/Rust desktop application with FFmpeg plus VideoToolbox/NVENC export; external model APIs and GPU resources required; early release, and provider/model compatibility claims need independent validation
+
   - name: Dramake
     repo: https://github.com/xixihhhh/ai-short-drama-skill
     team: [xixihhhh]
@@ -359,15 +375,15 @@ projects:
     description: 11 个短剧与漫剧 Skill，覆盖小说改编、分集剧本、一致性锁、分镜、提示词、投产、剪辑与审查
     tags: [short-drama, motion-comic, novel-adaptation, storyboard, character-consistency, reference-audio, editing, review, codex, claude-code]
     license: MIT
-    stars: 2800
+    stars: 3188
     deployment: [agent-skill]
     commercial_api_required: optional
     source_available: true
     status: active
-    notes: Stars checked on 2026-10-13 Beijing time; 2800 is an approximate snapshot from GitHub's rounded 2.8k display, not an exact API count; migrated from worldwonderer/drama-skills; v0.8.1 adds still/video mixed editing and character reference-audio binding; external generation tools and FFmpeg required
+    notes: Stars checked on 2026-10-22 Beijing time; migrated from worldwonderer/drama-skills; v0.9.2 fixes rendered-cut audio loss and exposes local checks, delivery groups and duration constraints earlier; external generation tools and FFmpeg required
     name: Drama Skills
-    stars_are_approximate: true
-    checked_at: "2026-10-13"
+    stars_are_approximate: false
+    checked_at: "2026-10-22"
 
   - name: shuohao-skills
     repo: https://github.com/eternityspring/shuohao-skills
@@ -656,6 +672,21 @@ observation_watchlist:
     status: watch
     checked_at: "2026-10-13"
     notes: Current custom license restricts commercial redistribution, SaaS and related commercialization; separate authorization required for restricted uses; proposed MIT conversion at 10k stars is not the current license
+
+  - name: Drama Mill
+    repo: https://github.com/duducat2026/drama-mill
+    team: [duducat2026]
+    category: observation
+    description: 可自托管的多租户小说到成片平台，含改写、提取、分镜、提示词和分集拆解 Agent，以及队列、重试、成本治理与导出
+    tags: [short-drama, novel-to-video, multi-agent, storyboard, character-consistency, self-hosted, multi-tenant, cost-governance, ffmpeg]
+    license: AGPL-3.0
+    stars: 1
+    deployment: [self-hosted, web, docker]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    checked_at: "2026-10-22"
+    notes: Stars checked on 2026-10-22 Beijing time; substantial 2026-10-21 update adds per-user model pricing and cost accounting; source is substantial but community validation remains minimal, and image/video generation requires configured commercial providers
 
   - name: MangaStudio
     repo: https://github.com/bo961386926/manga-studio

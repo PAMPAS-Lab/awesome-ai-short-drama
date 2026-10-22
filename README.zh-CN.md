@@ -43,6 +43,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 |---|---|---|---:|---:|---|
 | 🏆🏠 [Story Claw](https://github.com/ZC89757/story-claw) | ZC89757 | 小说到分集短剧，覆盖阶段资产、固定声线、分镜、音频、VLM 镜头检查、ComfyUI/LTX 自托管视频及可选 MG 动画模板 | MIT | 28 | 北京时间 `2026-10-13` 核验；Windows 桌面与 CLI，MG 模板包独立安装；需 GPU/ComfyUI 及 LLM、生图、TTS API；重试超限可能接受未通过质检的片段 |
 | 🏆🏠 [Toonflow](https://github.com/HBAI-Ltd/Toonflow-app) | HBAI Ltd | 小说/剧本到动画短剧；提供编剧、分镜、角色、视频生成、三层 Agent 和无限画布工作台 | Apache-2.0 | 10.6k | 桌面端/服务器部署；实际生成需要配置模型服务 |
+| 🧪🏠 [Kineo](https://github.com/Agions/kineo) | Agions | 本地多智能体漫剧工作台：从剧本、小说或提示词出发，经共享项目黑板、角色一致性锚点、分镜、图像/视频/TTS 到原生合成 | MIT | 128 | 北京时间 2026-10-22 核验；v0.0.2 Tauri/React/Rust 桌面版本，支持 FFmpeg、VideoToolbox/NVENC 导出；需外接模型 API 与 GPU，仍属早期版本，模型/服务商适配范围待独立验证 |
 | 🏆⚠️ [Huobao Drama](https://github.com/chatfire-AI/huobao-drama) | Chatfire AI | 一句话到剧本、角色、分镜、配音、视频与整集导出的自动化平台 | CC BY-NC-SA 4.0 | 13.0k | **非商用许可**；内置 Mastra Agents，支持多家模型 API |
 | 🏆🏠 [Huobao Drama AI](https://github.com/dav-niu474/huobao-drama-ai) | dav-niu474 | 基于 Next.js 16 的全栈 AI 短剧创作平台，覆盖剧本上传/改写、角色场景提取、分镜、图片/视频/TTS 和多供应商模型配置 | MIT | 77 | Stars 于 `2026-08-21` 北京时间复核；`2026-08-21` 有连续功能与安全更新；受 Huobao Drama 启发，但为独立 MIT 实现，更适合商用评估 |
 | 🏆⚠️🏠 [waoowaoo AI Studio](https://github.com/waooAI/waoowaoo) | waooAI | 从小说文本到分镜化短剧/漫画视频，覆盖剧本解析、角色/场景生成、配音和完整视频制作 | CC BY-NC-SA 4.0 | 13.4k | 源码完整的 Next.js 工作室，支持 Docker/本地部署；**非商用许可**；README 明确项目仍处于快速迭代的早期测试阶段 |
@@ -92,7 +93,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | 🧩💳 [StarReel MCP](https://github.com/starreel/starreel-mcp) | StarReel | 商业剧本到成片服务的开源 MCP 客户端，提供资产、分镜、视频、TTS 等工具 | MIT / 0 | 北京时间 `2026-10-13` 核验；`2026-10-12` 源码同步标注 v0.1.138；仅薄客户端开源，生成、一致性质检、审核和计费依赖预付费闭源服务端 |
 | 🧩 [libtv-skills](https://github.com/libtv-labs/libtv-skills) | LibTV Labs | 将 LibLib.tv 图片/视频 OpenAPI 封装为 OpenClaw 兼容 Skill | MIT / 781 | 是能力适配层，不是完整短剧系统 |
 | 🧩 [VideoClaw Skill](https://github.com/HITsz-TMG/VideoClaw) | HITsz-TMG | 在 OpenClaw 中通过对话启动完整视频/短剧生成 | MIT / 1.5k | 可通过 ClawHub 安装；执行前仍需审核配置及 API 权限 |
-| 🧩 [Drama Skills](https://github.com/zenstory-ai/drama-skills) | ZenStory AI | 11 个短剧/漫剧 Skill，覆盖小说改编、分集剧本、一致性锁、分镜、提示词、投产、剪辑与审查 | MIT / 约 2.8k | 北京时间 `2026-10-13` 核验（GitHub 页面约数）；由 worldwonderer/drama-skills 迁移，v0.8.1 新增静帧/视频混剪及角色参考音频绑定；需外接生成工具与 FFmpeg |
+| 🧩 [Drama Skills](https://github.com/zenstory-ai/drama-skills) | ZenStory AI | 11 个短剧/漫剧 Skill，覆盖小说改编、分集剧本、一致性锁、分镜、提示词、投产、剪辑与审查 | MIT / 3.2k | 北京时间 2026-10-22 核验；由 worldwonderer/drama-skills 迁移；v0.9.2 修复成片拼接切点丢音，并提前暴露局部核对、交付分组与时长约束；需外接生成工具与 FFmpeg |
 | 🧩 [shuohao-skills](https://github.com/eternityspring/shuohao-skills) | eternityspring | 面向 AI 短剧前期生产的 Skill 合集，覆盖小说改编、角色/场景/道具设定、剧本写作与分镜投产包，适配 Codex 与 Claude Code | Apache-2.0 / 1.5k | 前期生产与质量门设计较强，内置 selftest；不是独立的视频生成或剪辑应用 |
 | 🧩 [Drama Generator](https://clawhub.ai/zhenstaff/drama-generator) | ClawHub 社区 | 多角色剧本、OpenAI TTS、Whisper 和 Remotion 合成 | 未核验 | 更接近动态图形/有声剧，非电影级生成 |
 | 🧩 [One Click Video Creation](https://clawhub.ai/zuoyuting214/skills/zyt-one-click-video-creation) | ClawHub 社区 | 文案、分镜、TTS、数字人与 AI 素材混剪 | 未核验 | 依赖外部模型与 FFmpeg |
@@ -193,6 +194,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | [ShotForward](https://github.com/shotforward/shotforward) | ShotForward | 本地优先的桌面影视工作台，涵盖剧本、版本化资产、分镜、可撤销 Agent 变更、多模型视频与 FFmpeg 导出 | Apache-2.0 / 1 | 北京时间 2026-10-20 核验；v0.2.63；定位泛影视而非短剧专用，正式安装器主要面向 macOS ARM，部分模型服务收费 |
 | [AI Short Play Video Creation](https://github.com/ADC1920/AI-short-play-video-creation) | ADC1920 | 包含分镜/宫格规划、连续性、段缝检测、配音、排障脚本与最小多集样例的 Agent Skill | MIT / 0 | 北京时间 2026-10-20 核验；虽有自检脚本，但尚无 release 或社区验证；最终出片依赖即梦/Seedance |
 | [Video Factory](https://github.com/LordVayron/video-factory) | LordVayron | 由编码 Agent 驱动的微短剧工作台，提供角色锁定、分镜、音频先行、预算硬门禁、连续性质检与 FFmpeg 交付 | MIT / 0 | 北京时间 2026-10-20 核验；v1.0.0；亦面向广告和冥想视频，核心渲染和配音绑定 Kie.ai、ElevenLabs |
+| [Drama Mill](https://github.com/duducat2026/drama-mill) | duducat2026 | 可自托管的多租户小说到成片平台，含 5 个生产 Agent、资产引用、队列、暂停/续跑/重试与成本治理 | AGPL-3.0 / 1 | 北京时间 2026-10-22 核验；10 月 21 日实质更新模型定价与成本核算；源码较完整但公开验证很少，视频生成仍需配置商业服务商 |
 
 ### 官方教程、项目页与文章
 
