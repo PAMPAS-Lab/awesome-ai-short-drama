@@ -195,6 +195,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | [AI Short Play Video Creation](https://github.com/ADC1920/AI-short-play-video-creation) | ADC1920 | 包含分镜/宫格规划、连续性、段缝检测、配音、排障脚本与最小多集样例的 Agent Skill | MIT / 0 | 北京时间 2026-10-20 核验；虽有自检脚本，但尚无 release 或社区验证；最终出片依赖即梦/Seedance |
 | [Video Factory](https://github.com/LordVayron/video-factory) | LordVayron | 由编码 Agent 驱动的微短剧工作台，提供角色锁定、分镜、音频先行、预算硬门禁、连续性质检与 FFmpeg 交付 | MIT / 0 | 北京时间 2026-10-20 核验；v1.0.0；亦面向广告和冥想视频，核心渲染和配音绑定 Kie.ai、ElevenLabs |
 | [Drama Mill](https://github.com/duducat2026/drama-mill) | duducat2026 | 可自托管的多租户小说到成片平台，含 5 个生产 Agent、资产引用、队列、暂停/续跑/重试与成本治理 | AGPL-3.0 / 1 | 北京时间 2026-10-22 核验；10 月 21 日实质更新模型定价与成本核算；源码较完整但公开验证很少，视频生成仍需配置商业服务商 |
+| [OpenMontage Drama Studio](https://github.com/charliewwdev/OpenMontage) | charliewwdev | 可自部署的 Web 工坊，一句话灵感按剧本、角色、场景、道具、分镜与镜头、配音、剪辑七个环节推进；角色/场景/道具图作为参考传给 Seedance 出镜头，附爆款套路与电商带货广告模板、Skill 市场和无限画布视图 | AGPL-3.0 / 2 | 北京时间 2026-10-27 核验；React + FastAPI + PostgreSQL + Redis，Docker Compose 部署，需自备 S3/MinIO；出图出视频依赖付费的 Seedream/Seedance API（出图可选 ComfyUI）；基于 calesthio/OpenMontage 代码起步、已重构为独立产品，与原项目无隶属关系；公开时间很短、社区验证有限 |
 
 ### 官方教程、项目页与文章
 
@@ -252,6 +253,7 @@ budget、greenlight committee、concept validation 和 casting kits。它们适�
 | **MovieClaw** | 未发现可信的同名开源项目；相关学术项目是 MovieAgent |
 | **ShortClaw** | 已有产品，但定位是通用 OpenClaw 桌面端，不应因名称中的 `Short` 误判为短剧工具 |
 | **ReelClaw** | 至少有万兴视频 Agent 和其他 UGC/Reels Skill 使用该名称，需核对出品方 |
+| **OpenMontage** | 两个不同项目同名：[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 是上文收录的 Agent 视频生产系统；[charliewwdev/OpenMontage](https://github.com/charliewwdev/OpenMontage)（“OpenMontage Drama Studio”）是基于其代码起步的独立短剧工坊，引用时需核对仓库所有者 |
 
 ## 选择项目时建议检查
 

@@ -904,6 +904,22 @@ observation_watchlist:
     checked_at: "2026-10-20"
     notes: v1.0.0; also targets ads and ambient video, has no community validation, and relies on Kie.ai for rendering plus ElevenLabs for voices
 
+  - name: OpenMontage Drama Studio
+    repo: https://github.com/charliewwdev/OpenMontage
+    team: [charliewwdev]
+    category: observation
+    description: 可自部署的 AI 短剧/短视频 Web 工坊，一句话灵感按剧本、角色、场景、道具、分镜与镜头、配音、剪辑七个环节推进，角色/场景/道具图作为镜头参考
+    tags: [short-drama, script-to-video, storyboard, character-consistency, seedream, seedance, voiceover, infinite-canvas, self-hosted]
+    license: AGPL-3.0
+    stars: 2
+    deployment: [docker, self-hosted, web-ui]
+    commercial_api_required: true
+    source_available: true
+    status: watch
+    homepage: https://openmontage.dtok.io
+    checked_at: "2026-10-27"
+    notes: Started from the calesthio/OpenMontage codebase and rebuilt as an independent product, not affiliated with it; images and video use paid Seedream/Seedance APIs (images optionally via ComfyUI); S3/MinIO storage is user-provided; very new with little community validation
+
 research_papers:
   - name: DramaChain Bench
     paper: https://arxiv.org/abs/2609.00646
@@ -992,4 +1008,5 @@ commercial_watchlist:
 name_checks:
   FilmClaw: no-verified-open-source-project
   MovieClaw: no-verified-open-source-project
+  OpenMontage: two-distinct-projects-calesthio-agentic-video-system-and-charliewwdev-drama-studio
   ShortClaw: general-openclaw-runtime-not-short-drama-specific

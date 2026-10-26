@@ -200,6 +200,7 @@ component-level than end-to-end short-drama production.
 | [AI Short Play Video Creation](https://github.com/ADC1920/AI-short-play-video-creation) | ADC1920 | Agent skill with storyboard/grid planning, continuity, clip-junction checks, dubbing, troubleshooting scripts, and a minimal multi-episode example | MIT / 0 | Checked October 20, 2026 Beijing time; source includes self-check scripts but has no release or community validation; final rendering depends on Jimeng/Seedance |
 | [Video Factory](https://github.com/LordVayron/video-factory) | LordVayron | Coding-agent-operated studio for micro-drama series, with cast lock, storyboards, audio-first timing, hard budget gates, continuity QA, and FFmpeg delivery | MIT / 0 | Checked October 20, 2026 Beijing time; v1.0.0; also targets ads and ambient video, with core rendering and voices tied to Kie.ai and ElevenLabs |
 | [Drama Mill](https://github.com/duducat2026/drama-mill) | duducat2026 | Self-hosted, multi-tenant novel-to-final-cut platform with five production agents, asset references, queues, pause/resume/retry, and cost governance | AGPL-3.0 / 1 | Checked October 22, 2026 Beijing time; active October 21 model-pricing and cost-accounting update; source is substantial but public validation is minimal, and video generation requires configured commercial providers |
+| [OpenMontage Drama Studio](https://github.com/charliewwdev/OpenMontage) | charliewwdev | Self-hosted web studio that takes a one-line idea through seven stages (script, characters, scenes, props, storyboard and shots, voice, edit); character/scene/prop images are passed as references to Seedance shot generation, with viral-format and e-commerce ad templates, a skill market, and an infinite-canvas view | AGPL-3.0 / 2 | Checked October 27, 2026 Beijing time; React + FastAPI + PostgreSQL + Redis, Docker Compose with user-provided S3/MinIO; images and video use paid Seedream/Seedance APIs (images optionally via ComfyUI); started from the calesthio/OpenMontage codebase and rebuilt as an independent product, not affiliated with it; very new with little community validation |
 
 ### Official Tutorials, Project Pages, and Articles
 
@@ -258,6 +259,7 @@ was found. They are therefore **excluded from the open-source main list**.
 | **MovieClaw** | No credible open-source project with this exact name was found; the related research project is MovieAgent |
 | **ShortClaw** | An existing product, but it is a general OpenClaw desktop runtime—not a short-drama system |
 | **ReelClaw** | The name is used by both Wondershare's video agent and unrelated UGC/Reels skills; verify the publisher |
+| **OpenMontage** | Two different projects share this name: [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) is the agentic video production system listed above, while [charliewwdev/OpenMontage](https://github.com/charliewwdev/OpenMontage) ("OpenMontage Drama Studio") is a separate short-drama studio that started from that codebase; check the owner |
 
 ## Project Evaluation Checklist
 
