@@ -222,6 +222,7 @@ workflows, models, and resources for AI short-drama and micro-series production.
 | [awesome-ai-short-drama-tools](https://github.com/clipcurator/awesome-ai-short-drama-tools) | 已有同类短剧工具列表 | 6；内容较少且偏产品推广，只作为线索源 |
 | [awesome-openclaw](https://github.com/rylena/awesome-openclaw) | 通用 OpenClaw 资源列表 | 29；非短剧专属 |
 | [awesome-seedance](https://github.com/ZeroLu/awesome-seedance) | Seedance 提示词、工作流和电影/短剧案例 | 2.0k |
+| [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills) | 短剧 / 漫剧 Agent Skill 精选：83 个 skill 加 16 个可自部署平台，按创作阶段和视频模型索引，附三轮盲评实测，中英双语 | 1.9k；专收 skill，逐个人工核对，不收的项目都记录了原因 |
 
 GitHub `ai-short-drama` Topic 中还出现了一组由
 [clipcurator](https://github.com/clipcurator) 发布的制作模板，包括 production workflow、
