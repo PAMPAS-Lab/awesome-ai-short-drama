@@ -227,6 +227,7 @@ paper, or official project page as the primary source rather than filling the ga
 | [awesome-ai-short-drama-tools](https://github.com/clipcurator/awesome-ai-short-drama-tools) | Existing short-drama tools list | 6; small and product-oriented, so use as a lead source |
 | [awesome-openclaw](https://github.com/rylena/awesome-openclaw) | General OpenClaw resource list | 29; not drama-specific |
 | [awesome-seedance](https://github.com/ZeroLu/awesome-seedance) | Seedance prompts, workflows, and film/drama examples | 2.0k |
+| [awesome-short-drama-skills](https://github.com/UnderleveledBuilder/awesome-short-drama-skills) | Curated agent skills for AI short drama and motion comics (83 skills plus 16 self-hostable platforms), indexed by production stage and video model, with three rounds of blind-judged tests; bilingual zh/en | 1.9k; skill-focused, reviewed one by one, with recorded reasons for exclusions |
 
 The GitHub `ai-short-drama` topic also includes production workflow, budget, greenlight committee,
 concept validation, and casting kits published by [clipcurator](https://github.com/clipcurator).
