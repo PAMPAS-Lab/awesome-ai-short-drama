@@ -247,6 +247,7 @@ was found. They are therefore **excluded from the open-source main list**.
 | [AivoClaw](https://www.aivoclaw.cn/) | AivoClaw | Enterprise short-video and digital-human agent | Commercial product |
 | [Ima Claw](https://www.imaclaw.bot/) | Ima Claw | Multi-shot, storyboard, and creative-generation skill ecosystem | Adjacent ecosystem rather than a core open-source drama system |
 | [PlotParty](https://www.plotparty.ai/) | PlotParty | Character-consistent, plot-coherent, multi-minute narrative video | Commercial platform |
+| [AlphaDrama](https://getalphadrama.com/) | AlphaDrama | Webnovel and script to 9:16 vertical short-drama studio with three-view character consistency, per-shot multi-model routing (Seedance 2.0/2.5, MiniMax H3, Kling, Wan), lip-synced voiceover, captions, and episode export | Commercial platform |
 | Zopia | Unverified | Multi-agent video director for drama, film, and branded video | Primarily covered by media reports; no verifiable open-source repository |
 
 ## Commonly Confused Names

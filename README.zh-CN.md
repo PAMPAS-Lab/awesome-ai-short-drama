@@ -241,6 +241,7 @@ budget、greenlight committee、concept validation 和 casting kits。它们适�
 | [AivoClaw](https://www.aivoclaw.cn/) | AivoClaw | 企业短视频、数字人与内容生产 Agent | 商业产品 |
 | [Ima Claw](https://www.imaclaw.bot/) | Ima Claw | 多镜头、分镜和创意生成 Skills 生态 | 可作为能力生态观察，非核心开源短剧系统 |
 | [PlotParty](https://www.plotparty.ai/) | PlotParty | 角色一致、剧情连贯和多分钟叙事视频 | 商业平台 |
+| [AlphaDrama](https://getalphadrama.com/) | AlphaDrama | 小说与剧本到 9:16 竖屏短剧工作台，覆盖三视图角色锁脸、逐镜多模型路由（Seedance 2.0/2.5、MiniMax H3、Kling、Wan）、口型配音、字幕与整集导出 | 商业平台 |
 | Zopia | 未核实 | 多 Agent 视频导演，主打短剧、电影和品牌视频 | 目前主要为媒体报道，缺少可验证开源仓库 |
 
 ## 容易混淆的项目名称
