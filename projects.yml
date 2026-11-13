@@ -989,6 +989,10 @@ commercial_watchlist:
     url: https://www.imaclaw.bot/
     open_source_verified: false
 
+  - name: AlphaDrama
+    url: https://getalphadrama.com/
+    open_source_verified: false
+
 name_checks:
   FilmClaw: no-verified-open-source-project
   MovieClaw: no-verified-open-source-project
